@@ -1,0 +1,57 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8530e8e4-5818-41da-897d-3deeee364b1f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Schenkkan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 35"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d9f8967e-f813-49b6-b475-33730892e221"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gidion Corper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 35,Uilenburgerstraat 35 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/93dd559c-7090-4303-8dd2-addab98eada0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander van Staveren"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 35"
+        }
+      }
+    ]
+  }
+}

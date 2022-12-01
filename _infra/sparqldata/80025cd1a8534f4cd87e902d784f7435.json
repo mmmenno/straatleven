@@ -1,0 +1,404 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "lp",
+      "labels",
+      "residents"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023364"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 15 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023378"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 43 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023368"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 23 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023369"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 25 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023350"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 18"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023374"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 35 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023356"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 1 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023343"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 32 ,Korte Houtstraat 32 3,Korte Houtstraat 32 II,Korte Houtstraat 32 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023372"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 31 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023351"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 10 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023370"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 27 III,Korte Houtstraat 27 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023355"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 2 I p/a Maq,Korte Houtstraat 2 II,Korte Houtstraat 2 bij de dijk"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023345"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 28 huis,Korte Houtstraat 28 huis p.a. Blok"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023346"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 26 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023459"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 14 I,Korte Houtstraat 14 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1096183"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 38 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023352"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 8,Korte Houtstraat 8 ,Korte Houtstraat 8 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023360"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 9 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023377"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 41 ,Korte Houtstraat 41 I,Korte Houtstraat 41 III,Korte Houtstraat 41 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023365"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 17 I,Korte Houtstraat 17 II,Korte Houtstraat 17 III,Korte Houtstraat 17 café"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023353"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 6,Korte Houtstraat 6 II,Korte Houtstraat 6 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023359"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 7 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023361"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 11,Korte Houtstraat 11 I,Korte Houtstraat 11 II,Korte Houtstraat 11 III,Korte Houtstraat 11 Ii"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023358"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 5 II,Korte Houtstraat 5 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023349"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 20 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023366"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Korte Houtstraat 19 I,Korte Houtstraat 19 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      }
+    ]
+  }
+}

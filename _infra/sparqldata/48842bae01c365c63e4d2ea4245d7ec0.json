@@ -1,0 +1,254 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "lp",
+      "labels",
+      "residents"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091934"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 33 I,Louis Bothastraat 33 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091925"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 7 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091930"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 17 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091912"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 14 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091919"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 28 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091924"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 5 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091923"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 3 II,Louis Bothastraat 3 II,Louis Bothastraat 3 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091929"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 15 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091931"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 ,Louis Bothastraat 19 I,Louis Bothastraat 19 hs,Louis Bothastraat 19 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091928"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 13 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091932"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 29 II,Albert Luthulistraat 29 III,Louis Bothastraat 29 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091922"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 1 II,Louis Bothastraat 1 ,Louis Bothastraat 1 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091917"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 24 Hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091927"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 11 III,Louis Bothastraat 11 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091910"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 10 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1091933"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 31 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e4603137-b5fa-447c-9877-9f4791019c3b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Veronica Bonnettenmaker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-03-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/225fed98-7dff-4e3e-b325-99f1017f67e1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac de Leeuwe"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/225fed98-7dff-4e3e-b325-99f1017f67e1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac de Leeuwe"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1929-08-20",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0bb7c2cf-5384-4cab-bb09-d4616522755a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Tailleur"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-06-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c566c20b-8385-4ce7-952f-e5e5ea1ff1e5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isidore Blik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/81b6de11-a3a9-40cf-bec0-755d7ad11085"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Bonettenmaker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-03-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ab4f24dd-e666-47d3-9aa5-68b1b0c43599"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Maurits Blik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 III"
+        }
+      }
+    ]
+  }
+}

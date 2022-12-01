@@ -1,0 +1,67 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/77e4456a-bb2b-4cea-8094-42f4685e7ded"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Sigaar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 33 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1927-09-09",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/911ec281-92f2-4793-92b1-10434c3b6792"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Max Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 33 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/77e4456a-bb2b-4cea-8094-42f4685e7ded"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Sigaar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 33 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1933-05-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

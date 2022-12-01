@@ -1,0 +1,264 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6264e1f0-f757-4fff-badf-48c076b74609"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Lodewijk Sturkop"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ad08f1fd-4138-41bf-87fd-acba407488f8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie de Goede"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/58ea51b6-aa2a-42e1-a2d6-268668ecdb0e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Pach"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1941-01-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a09bd7d5-58fe-4e72-870a-93a23b9e0640"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Debora Mourits - Roodveldt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7b63af7d-7538-4198-8f53-7cffc7aa80e9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog van West"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/400b0fe5-9e1f-495b-af11-8f231c7877ec"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judic van Santen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29,Nieuwe Amstelstraat 29 ,Nieuwe Amstelstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/242b999b-0891-40d3-be5a-a9ef37f83c45"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-06-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2b166444-8b4e-4aa2-ad9c-20cc589866e5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Celina Roodveldt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29,Nieuwe Amstelstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c1155059-e50b-4f78-b9e2-9b126b677f35"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Walvis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bdd7b397-294e-4d74-8ef0-36cd6ba09a17"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Emanuel Mathijse"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29,Nieuwe Amstelstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fcfb8b6a-409f-4794-85a9-21d78f77c4c4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Hamerslag"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3a03a372-ac7d-4f39-b4ff-c899f9047595"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Roodveldt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8bda4ac3-d45b-40ca-8a2c-4560e4dfa7db"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Zinger"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9394402d-208d-43b7-9d74-100351f01b25"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-06-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/afb4ef64-1a83-4440-9549-7a6765b628ea"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Neuberger"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I p.a. Sturkop"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-07-26",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dd55c6fd-5e2d-4975-a032-394babadce5a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gabriël Dresden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 29 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-05-22",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

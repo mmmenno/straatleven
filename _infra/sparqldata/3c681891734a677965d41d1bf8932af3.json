@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a2c6a6c3-34b3-43f3-8f44-2e6cc15b797e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Buijs"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 42 I"
+        }
+      }
+    ]
+  }
+}

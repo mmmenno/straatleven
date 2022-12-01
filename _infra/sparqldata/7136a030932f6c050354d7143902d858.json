@@ -1,0 +1,207 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dbccdc91-06ee-4bce-b53d-17ea01c3c2f6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Jacobs"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/58147190-0a64-4d92-9500-6c3294c849ef"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Daniel de Hoop"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d1df7add-81a4-450d-b97b-076195d3f2cb"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Dina Broekman - van Praag"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52,Jodenbreestraat 52 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ac63a135-bcaf-4a05-9754-a7b3c16161d6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Krant"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-04-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b13ba765-7327-400b-bee4-7afeed2770d8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aäron Hamburger"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8b25ebfa-b207-4cb4-a20c-5b0d2852edf3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob van Dal"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/becb7e21-b258-4c2a-a201-e4923cb644c1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judith Krant - Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-04-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c91bc1d5-b437-431d-90f2-2a783f37f175"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sientje de Hoop - Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1a4c3cac-c7c0-4f8b-9f23-5fc23ada586d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon de Smitt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/378361a4-61f1-4b1c-9d2e-e1486a5ce140"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elkan Krant"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3b1774a4-a9dd-4580-8405-daf84a09b371"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Willem Bellings"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/55a19742-4b97-4111-a1e0-80eb757906ca"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rachel de Hoop"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6182aacd-2ce9-4a60-93b5-79f80c03d081"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Hamburger"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52,Jodenbreestraat 52 "
+        }
+      }
+    ]
+  }
+}

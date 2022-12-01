@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3f2c5a54-e4e4-4d76-b70b-47344fc7728c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benedictus Levie Lever"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 106 I"
+        }
+      }
+    ]
+  }
+}

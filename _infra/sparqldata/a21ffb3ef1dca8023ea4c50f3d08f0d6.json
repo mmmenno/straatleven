@@ -1,0 +1,1124 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "lp",
+      "labels",
+      "residents"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022900"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 ,Jodenbreestraat 105 I,Jodenbreestraat 105 II,Jodenbreestraat 105 III,Jodenbreestraat 105 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "20",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022868"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67,Jodenbreestraat 67 ,Jodenbreestraat 67 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022859"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I,Jodenbreestraat 49 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023091"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 36,Jodenbreestraat 36 ,Jodenbreestraat 36 I,Jodenbreestraat 36 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023075"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 4"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023087"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 28 I,Jodenbreestraat 28 II,Jodenbreestraat 28 II p/a Peper,Jodenbreestraat 28 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023096"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46,Jodenbreestraat 46 ,Jodenbreestraat 46 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022874"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79,Jodenbreestraat 79 II,Jodenbreestraat 79 III,Jodenbreestraat 79 v. z. advies"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023083"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 20 ,Jodenbreestraat 20 I,Jodenbreestraat 20 II,Jodenbreestraat 20 II  p.a. v. Cleef"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022872"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 75 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022853"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 37,Jodenbreestraat 37 ,Jodenbreestraat 37 I,Jodenbreestraat 37 II  T/S,Jodenbreestraat 37 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023092"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 38 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022891"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 87 ,Jodenbreestraat 87 I,Jodenbreestraat 87 II,Jodenbreestraat 87 III,Jodenbreestraat 87 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023104"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 62 I,Jodenbreestraat 62 II,Jodenbreestraat 62 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022839"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19,Jodenbreestraat 19 ,Jodenbreestraat 19 Huis p.a. Stibbe,Jodenbreestraat 19 I,Jodenbreestraat 19 I  verhuisd z. adres,Jodenbreestraat 19 II,Jodenbreestraat 19 hs,Jodenbreestraat 19 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022870"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 71 I,Jodenbreestraat 71 II,Jodenbreestraat 71 II Verhuisd"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022837"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15,Jodenbreestraat 15 I,Jodenbreestraat 15 I p.a. Nord,Jodenbreestraat 15 II,Jodenbreestraat 15 III,Jodenbreestraat 15 h p.a. Couzijn,Jodenbreestraat 15 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023109"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 70 I,Jodenbreestraat 70 II,Jodenbreestraat 70 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023082"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 18 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023076"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 6 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022829"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1,Jodenbreestraat 1 ,Jodenbreestraat 1 I,Jodenbreestraat 1 II,Jodenbreestraat 1 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022850"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 31,Jodenbreestraat 31 I,Jodenbreestraat 31 II,Jodenbreestraat 31 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023085"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 24 ,Jodenbreestraat 24 I p/a wed.Susan,Jodenbreestraat 24 II p/a wed. Swaab,Jodenbreestraat 24 III,Jodenbreestraat 24 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022838"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 I,Jodenbreestraat 17 III,Jodenbreestraat 17 hs,Jodenbreestraat 17 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023089"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 3,Jodenbreestraat 32 II,Jodenbreestraat 32 III,Jodenbreestraat 32 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022857"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 45,Jodenbreestraat 45 I,Jodenbreestraat 45 II,Jodenbreestraat 45 III,Jodenbreestraat 45 III p.a. Simons,Jodenbreestraat 45 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "8",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022864"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 59,Jodenbreestraat 59 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022849"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 29,Jodenbreestraat 29 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023101"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 56,Jodenbreestraat 56 I,Jodenbreestraat 56 II,Jodenbreestraat 56 II p/a Vischjager,Jodenbreestraat 56 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022898"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 101 II,Jodenbreestraat 101 huis p/a @@@@"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022858"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47,Jodenbreestraat 47 ,Jodenbreestraat 47 I,Jodenbreestraat 47 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023106"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 64,Jodenbreestraat 64 ,Jodenbreestraat 64 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023102"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 58 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023107"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 I,Jodenbreestraat 66 II,Jodenbreestraat 66 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "9",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022830"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 3,Jodenbreestraat 3 ,Jodenbreestraat 3 I,Jodenbreestraat 3 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "8",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1096157"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 25 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022896"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 97 II,Jodenbreestraat 97 bij Meijer,Jodenbreestraat 97 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022851"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 33,Jodenbreestraat 33 ,Jodenbreestraat 33 I,Jodenbreestraat 33 II,Jodenbreestraat 33 i"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023098"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 ,Jodenbreestraat 50 I,Jodenbreestraat 50 II,Jodenbreestraat 50 III,Jodenbreestraat 50 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023090"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 34 ,Jodenbreestraat 34 I,Jodenbreestraat 34 II,Jodenbreestraat 34 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023074"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 ,Jodenbreestraat 2 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022888"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 81 ,Jodenbreestraat 81 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022856"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 43 I,Jodenbreestraat 43 II,Jodenbreestraat 43 III,Jodenbreestraat 43 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023094"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 ,Jodenbreestraat 42 II,Jodenbreestraat 42 III,Jodenbreestraat 42 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023095"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 44,Jodenbreestraat 44 I,Jodenbreestraat 44 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023088"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 30,Jodenbreestraat 30 ,Jodenbreestraat 30 19 I,Jodenbreestraat 30 I,Jodenbreestraat 30 II,Jodenbreestraat 30 III,Jodenbreestraat 30 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022860"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 51,Jodenbreestraat 51 ,Jodenbreestraat 51 I,Jodenbreestraat 51 II,Jodenbreestraat 51 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "8",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022861"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 53,Jodenbreestraat 53 Hs,Jodenbreestraat 53 I,Jodenbreestraat 53 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022866"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 ,Jodenbreestraat 63 111,Jodenbreestraat 63 I,Jodenbreestraat 63 II,Jodenbreestraat 63 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022892"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 89,Jodenbreestraat 89 P.J. Weeshuis,Jodenbreestraat 89 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023084"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 22 II,Jodenbreestraat 22 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022871"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 ,Jodenbreestraat 73 I,Jodenbreestraat 73 II p/a Blog,Jodenbreestraat 73 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022863"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 57 I,Jodenbreestraat 57 boven"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022895"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 95 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022852"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 ,Jodenbreestraat 35 2,Jodenbreestraat 35 II,Jodenbreestraat 35 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023103"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 60 ,Jodenbreestraat 60 II,Jodenbreestraat 60 II p.a. Stork,Jodenbreestraat 60 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022842"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 27"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023081"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 16 I,Jodenbreestraat 16 II,Jodenbreestraat 16 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023093"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40,Jodenbreestraat 40 I,Jodenbreestraat 40 II,Jodenbreestraat 40 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022840"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21,Jodenbreestraat 21 ,Jodenbreestraat 21 I,Jodenbreestraat 21 II,Jodenbreestraat 21 III,Jodenbreestraat 21 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023079"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 12 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022854"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39,Jodenbreestraat 39 ,Jodenbreestraat 39 Huis,Jodenbreestraat 39 II,Jodenbreestraat 39 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023086"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 26 II p/a de wed. Molgo,Jodenbreestraat 26 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022897"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 99,Jodenbreestraat 99 ,Jodenbreestraat 99 Huis,Jodenbreestraat 99 I,Jodenbreestraat 99 hs"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "8",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022855"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 41,Jodenbreestraat 41 ,Jodenbreestraat 41 II,Jodenbreestraat 41 III,Jodenbreestraat 41 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "9",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023100"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 54 ,Jodenbreestraat 54 II,Jodenbreestraat 54 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022867"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 65 ,Jodenbreestraat 65 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022835"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 ,Jodenbreestraat 11 I,Jodenbreestraat 11 II,Jodenbreestraat 11 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022862"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 55 ,Jodenbreestraat 55 Carels,Jodenbreestraat 55 III,Jodenbreestraat 55 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022869"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 69 I p/a Cohen"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023099"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 52,Jodenbreestraat 52 ,Jodenbreestraat 52 I,Jodenbreestraat 52 II,Jodenbreestraat 52 III,Jodenbreestraat 52 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "13",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023108"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 68 ,Jodenbreestraat 68 II,Jodenbreestraat 68 III,Jodenbreestraat 68 III p/a Reindorp"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022899"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 103,Jodenbreestraat 103 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022873"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 77 II,Jodenbreestraat 77 hs,Jodenbreestraat 77 huis p.a. Vos"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      }
+    ]
+  }
+}

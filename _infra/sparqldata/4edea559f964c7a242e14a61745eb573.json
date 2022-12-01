@@ -1,0 +1,100 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4e46fdee-ad4e-4ff3-bdbf-a6afdffb9405"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Salomon Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-01-20",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2d47cf58-bd68-431f-97c0-a1fd3f844206"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judith van der Kar - Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-11-30",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0bc8b805-2011-49d7-9927-bd82959d3fd3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob de la Fuente"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/86b574a3-bbe1-4032-b578-a561d9e6cb0b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Pierotto"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12,Nieuwe Amstelstraat 12 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4e46fdee-ad4e-4ff3-bdbf-a6afdffb9405"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Salomon Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12,Nieuwe Amstelstraat 12 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-12-18",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8532ec79-f227-44b8-b4b9-3aee912ed5e7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Arnold Mulder"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/edf1c1ad-3358-4276-a80f-bd2b66efe568"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Deegen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a262e47c-9030-46ad-be57-a8620e0990a1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Raphael Sarlie"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c26ecd92-0cfd-433d-95e7-459bb6bb74c2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mathilda Pach - van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c26ecd92-0cfd-433d-95e7-459bb6bb74c2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mathilda Pach - van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1925-04-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ba8ca426-5a6b-4b4c-82bd-770ef7f7a440"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Pach"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1925-04-17",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c1d19aad-d509-4b74-bfc6-0fcf4655af0c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Johanna Mulder - van Beek"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f498c5d6-2119-450e-9b92-38cc0d6b21e8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Fransman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5b3db6d7-eb40-4984-bce5-5cb83dc85f7d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Gobits"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1937-12-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7d300a31-e7f6-495b-98ac-e461b10f1ac7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Mozes Goudeket"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-12-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8d3d7284-a199-4eea-ad90-cfabc86beb10"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d0854478-cfb2-4d8c-8b5f-023361a50be1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mathilda van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/72d8ae72-397d-4182-a17d-095d5b96b8a2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Sarlie"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dcfdbfff-541c-416a-9f3a-f718de8fa2e9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leon van Beek"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b6a44bea-35d0-48f7-b1a1-04a41e37e1cc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jonas van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 42,Jodenbreestraat 42 ,Jodenbreestraat 42 II"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2b0d06ed-006f-4b84-b8af-87d8a2df101f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Asser van Leeuwen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/63eda857-f2e1-48fc-8384-702fcc4b9f89"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Frank L. Hartog"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f9d7bcad-dad2-4dba-be87-579476c54e10"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Saul de Groot"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141 boven"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c3b0a757-b710-418c-b322-571cbb0f7c75"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Grietje Furth - Elsas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c41fd44-481e-4491-b9c0-ac391d221137"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Pampel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141 A"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-08-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c41fd44-481e-4491-b9c0-ac391d221137"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Pampel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141 A I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0808acbc-e967-4412-8199-18172ecc2e27"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jetta Knegje"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1a8ac0f8-af6c-4619-a21d-32bdc719ce5d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Knegje"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5daae458-2d5d-41e2-9a99-ec3dc2592563"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Assou"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 "
+        }
+      }
+    ]
+  }
+}

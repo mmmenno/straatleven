@@ -1,0 +1,71 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e6f3e3e0-1714-477d-9520-b04a05220915"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Joel Riene"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 64 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/330987c0-a911-4174-b40a-c48b936dd4a2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elisabeth Riene"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 64 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5b9814cb-5ee3-4bbf-a8ad-05aac7b02b1c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gompert Kerkmeester"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 64,Jodenbreestraat 64 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/11d4b64b-fcfa-452a-8eb4-6cb82b50682f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elisabeth Riene"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 64 II"
+        }
+      }
+    ]
+  }
+}

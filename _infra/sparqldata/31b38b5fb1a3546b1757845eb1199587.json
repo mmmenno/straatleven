@@ -1,0 +1,151 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5e7e0a03-80cd-4e78-938b-cf17a4691cdb"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mietje van Thijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7313ac2b-a6a0-4125-8378-f5a5c5046dd8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Kuijt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 I p.a wed del Canho"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-04-26",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cd246dab-567b-4001-ad69-6f54d764e61c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Betsy del Canho"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0ff19e8b-0fbf-44bd-816e-5eacd663a143"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Zante"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7d15ea4a-a57f-4ce4-9bf6-562d5a39a59c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Netje Zante - del Canho"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f118e17c-ece1-44cd-9f1f-40ae824cb6af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva van Praag"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 III  p/a v. Thijn"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/81c5d481-df37-4bbd-9823-2f011c718d85"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Kuyt - del Canho"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/38282a6a-9e9a-4612-9194-45d0c7008686"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie de Jong"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1939-05-02",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f01d3f7e-92a8-4963-b912-260d9974eef7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianne van Thijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 18 "
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/12f17c3e-eb46-4004-86b6-3fce36fd54ba"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Baruch - Eberst"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 boven"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-12-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a50b0879-7e10-48a4-87a5-973efc13bed8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Baruch"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-02-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/32e6f535-179c-4132-b231-cb0fe1292f0e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leonard Peeters"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9e6e535c-ba8b-4941-89df-6ca1f3be1b6e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Barug"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6db5d63b-061c-4b35-96bb-9f954e9af4bd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Sjouwerman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-02-12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c4136db6-c41e-4bed-b6dd-b69c6972cf0e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Baruch - Eberst"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 boven"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4ad61821-29bb-4dd9-98ab-50ac630c241f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Martin Richard Serverius"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 "
+        }
+      }
+    ]
+  }
+}

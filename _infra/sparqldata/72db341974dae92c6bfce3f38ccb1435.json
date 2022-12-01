@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bdd0b809-c3ef-45c0-8ed5-40d453e7226b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Berklou"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 26"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2012bd2e-23c8-41f1-9a05-061e7d9845b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Wagenhuis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 26"
+        }
+      }
+    ]
+  }
+}

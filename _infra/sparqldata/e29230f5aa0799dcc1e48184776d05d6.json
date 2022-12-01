@@ -1,0 +1,48 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/81ef86d8-36f5-4930-89ff-bd9a21e0a350"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Karel Nord"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 31"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/063fb6bb-5570-4199-953c-b18f5d28526d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes van den Berg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Uilenburgerstraat 40 III verh.z.a. 7/326"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-04-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

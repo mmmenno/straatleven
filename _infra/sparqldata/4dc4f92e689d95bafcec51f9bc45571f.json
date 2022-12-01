@@ -1,0 +1,344 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/32a20836-688c-4d42-9657-24337542a2e0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Femma Groen - Sjouwerman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c348c14a-f533-45e3-9829-5bff120c8171"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Juda Erwteman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dd9a74de-f39a-4040-8617-74777e4f40a6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Emmerik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-11-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0737cf15-f3cd-4bad-b153-b1e6bf49ec10"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Andries Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b11dec3e-5835-4357-9d0d-4a45abd9885b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Piller"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-09-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/16bee790-37f1-48dd-b6fe-5689e5c33770"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abigaël Corper - Nabarro"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-04-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f150ab73-a9a1-4412-819a-0d46143175be"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aron Emmerik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-11-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/170a05df-3f58-4a93-ae38-7a1d89fa788c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leentje Emmerik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-11-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/254fcb46-a6f0-455d-9762-b84e299fcf58"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Piller"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-09-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/14b3bcba-b74f-4ab0-ae2e-9e55ed88c7c0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Erwteman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a046097d-2b85-41ff-bb77-2f7183a31ef9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Clara Blitz - van Moppes"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 ,Jodenbreestraat 105 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/59852701-fbb0-48c3-9ede-438271d11602"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Sjouwerman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3c8801d7-2b8e-41fe-91c6-83b22b97283c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis van Collem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/326f4800-4f65-40f4-8736-d2de66b2ecae"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gerardus van Loggem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-11-26",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6a968d27-e818-4cd5-bb9d-8169d56f0cbc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Willem Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a0323e9e-a006-4e8d-835a-e1e47e823c83"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Adèle Sjouwerman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f02a5d19-13f6-4d2f-bb88-daad8d0c40f6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes van Moppes"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/587b188e-7d4e-456d-81cc-792904fd9092"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Erwteman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b3fb04b3-ac1f-4582-b420-5e806a462fa6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/aef09c19-ff54-4a3c-be66-3ac5df30b485"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nehem Berlijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105,Jodenbreestraat 105 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/170a05df-3f58-4a93-ae38-7a1d89fa788c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leentje Emmerik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 105 I"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d179a694-389a-44d6-9525-c91eda1597a1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Ensel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c88dae1-6e26-4699-ab11-0a04e7524af5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Springer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1935-12-09",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9b26601b-27b7-4574-b15e-d50471826d73"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob van Beetz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/37788e62-bf13-4111-9ceb-2a8471df239b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Kesnig"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e3bce771-e527-4a49-89b8-995aea934f4a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Abraham Walvis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/14c7421a-27ad-43f9-a439-c2042a6fee08"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Walvis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c88dae1-6e26-4699-ab11-0a04e7524af5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Springer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 2"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/25d6f63e-c41f-4af5-9530-67ca03c99250"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marie van Beetz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 35 III"
+        }
+      }
+    ]
+  }
+}

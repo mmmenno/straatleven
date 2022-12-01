@@ -1,0 +1,179 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/15fbc0fc-5f7d-4ca1-9e33-ce2b564abfc6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sippora van Os - Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6a55f7fa-fd38-416b-a38c-1cb227f04573"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Groen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1bab8e1f-7d43-4ff9-9821-25f4df8c1050"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hanna de Vries - Bloq"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f77fa69d-0ff0-431e-a455-21627a187387"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Fransman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c6df420-acbf-42f0-bcf5-8cdc626f8b60"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leendert Fransman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-01-21",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dd1bac26-dbbd-4246-a483-397ca4cd02e3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Grietje Levij - Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f5d06d91-feb5-4b9e-bc24-fc8bdd00f28e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gerson Casseres"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73 II p/a Blog"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-03-29",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/38e98ca9-e16a-406e-a49d-23a62234cde1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2fbebeac-1959-4825-91a8-f942b75327ba"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 ,Jodenbreestraat 73 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7d875702-e683-4056-b138-5428556535ff"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4038dce6-7075-4fec-aa0a-1b4864b09a37"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 73,Jodenbreestraat 73 "
+        }
+      }
+    ]
+  }
+}

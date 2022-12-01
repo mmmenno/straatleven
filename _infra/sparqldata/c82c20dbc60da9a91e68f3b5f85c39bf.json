@@ -1,0 +1,71 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/aaa03e90-a97a-489c-ad71-9cf4088585c3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin Menist"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 28 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/93bbe8dd-125d-4008-8dc2-56a0b570e137"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Vischjager"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 28 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e532710a-3a11-4760-9804-035f44f29874"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin Menist"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 28 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/47cfa8da-cc0e-48e6-9503-fd28fef6d0bb"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Rebi"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 28"
+        }
+      }
+    ]
+  }
+}

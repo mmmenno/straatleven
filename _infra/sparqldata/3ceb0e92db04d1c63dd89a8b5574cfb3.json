@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/67918c11-0524-49bd-a149-4ce54a4bd981"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Wans"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 14 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5b84b815-1998-47f5-b2b1-8f7512bec26c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Haringman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 14 "
+        }
+      }
+    ]
+  }
+}

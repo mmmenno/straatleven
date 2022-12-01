@@ -1,0 +1,193 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1abbed14-bf2c-4622-b00c-b0df43254be6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Croonenberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/862823c7-88ec-4806-9d4b-ff004efe7eca"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Parsser"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f079ce88-5f42-4067-8fae-a979162e9324"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-02-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/33f98f69-2ecc-44c2-86ed-7b36521b2fc9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes de Jong"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fa7b5823-c5f5-4603-81ce-5597ac8fb2f3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4130b384-8182-4519-82fb-d69c8af05f48"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d9456144-62cc-496d-b3c9-6b9c06b0e1fa"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Nikkelsberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9faaa0e0-4821-4d37-b34d-43c166ca86ce"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Frederikstadt"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 111"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/823d1ac4-44c0-467a-b55a-7dd8b1508122"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Karel Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f079ce88-5f42-4067-8fae-a979162e9324"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6b188d32-4c6f-4653-afbd-190398143e3f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Croonenberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/240d8dd6-955e-4f4d-bb6f-38b8e3bed4b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 63 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-07-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0de6eec3-ceeb-4ad3-b69b-3395451d00d9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Tulp"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 28 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0de6eec3-ceeb-4ad3-b69b-3395451d00d9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Tulp"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 28 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-07-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

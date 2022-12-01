@@ -1,0 +1,221 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f82a71a1-ddcc-4424-8cd1-727a01d4e1af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Juda Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/240d8dd6-955e-4f4d-bb6f-38b8e3bed4b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1929-03-21",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b57bc028-514e-4a16-8df4-a4413ad28d6b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Kleerekoper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21,Jodenbreestraat 21 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6916dc0d-ee08-4b84-8566-f703a551b48d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9ed6dbff-446a-4c7b-9ee9-de6827826207"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaäc Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/74cb3877-33d9-42bf-8110-f7e850ccaa65"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a61d5cf0-5749-43ae-b6bd-585d058e4197"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Metzelaar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0d6dd9c4-ddc3-4ee6-a452-097887652497"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Overste"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21,Jodenbreestraat 21 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a61d5cf0-5749-43ae-b6bd-585d058e4197"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Metzelaar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-08-22",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/66c56690-7a87-4136-b923-5df8e4b63b3c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21,Jodenbreestraat 21 ,Jodenbreestraat 21 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dffa3de5-d54b-4a1e-9770-bbc6f299cab6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Dina Prins - Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/240d8dd6-955e-4f4d-bb6f-38b8e3bed4b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Aronson"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9c406aa1-ec89-491a-a429-4721de3d3898"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Kleerekoper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/648754e4-4d93-4387-9e56-efbe8547c77e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Dina Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 21 II"
+        }
+      }
+    ]
+  }
+}

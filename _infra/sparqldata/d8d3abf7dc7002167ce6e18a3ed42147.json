@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2c6df265-c27d-48a0-820e-08bbab139be8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 62 huis"
+        }
+      }
+    ]
+  }
+}

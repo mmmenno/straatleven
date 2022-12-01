@@ -1,0 +1,268 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4b6c7f4e-ab8b-42ac-8513-b600f89a7569"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samson Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1d5d2f51-234d-4282-bb9d-66f44c84d0af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Papier"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1933-07-31",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d2b6c9af-2499-4fcd-bed0-eb82fbd2e1b2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gompel Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1,Jodenbreestraat 1 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ee7457e4-e7cd-4815-8e9c-0b0eadbc536a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mietje Kesnig - van Kolm"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e85502a7-c098-44fb-9f12-b277c1604911"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Montezinos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4428dc5c-c0c8-407a-924d-d1ecc3ef3508"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Clara Schaap"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1,Jodenbreestraat 1 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1b7e251e-1a3e-4f0a-8ae0-5fdc237a7af9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rebecca van Kolm"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dca5300b-179f-4839-8bd5-457f5a808d88"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Ossendrijver"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6954bd2a-bf3d-4133-965a-dd3444a895dc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Kinsbergen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ee7457e4-e7cd-4815-8e9c-0b0eadbc536a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mietje Kesnig - van Kolm"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-08-28",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/46a4b98a-7f4c-4fb4-bfae-95e275518431"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Coenraad Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1,Jodenbreestraat 1 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f5ebc2e0-4d42-49aa-bb0e-7e4995d81338"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rebecca Davidson - van Kolm"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f5ebc2e0-4d42-49aa-bb0e-7e4995d81338"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rebecca Davidson - van Kolm"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-08-28",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c7298ddc-28a8-4100-bfd7-4707bb6fb537"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/88089201-44a6-4660-9adb-bc61232e7fd9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judith Kinsbergen - Winnik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/eeca11b6-fb05-4a4a-804a-0e8c356be315"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1,Jodenbreestraat 1 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/43ba2430-3030-4702-9ae8-f91ece3e0887"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Josua Gomes de Mesquita"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 1 II"
+        }
+      }
+    ]
+  }
+}

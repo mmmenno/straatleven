@@ -1,0 +1,104 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d09ae2d5-6187-4d72-b56f-87c43b276260"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander van Staveren"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0085979e-4d01-42dc-80ca-22a0a3f005ff"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Beesemer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/311af3da-a76f-4d3c-a90b-4310c41f1045"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël van der Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119 A I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dcca0c66-06af-46f9-9266-8726af8816d8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham van Staveren"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e8659a5f-08e8-4915-aecd-1a63dfe9582a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac v.d. Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119 A,Uilenburgerstraat 119 A I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dcff3852-6377-471c-ba82-2ed1164d48ba"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Willem (Wolf) v.d. Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119 A I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-07-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

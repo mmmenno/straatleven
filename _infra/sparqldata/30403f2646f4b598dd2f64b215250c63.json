@@ -1,0 +1,95 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/78c4ead9-f31b-41ca-bda6-21b8d8cb4512"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eliazer de Groot"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16,Nieuwe Amstelstraat 16 ,Nieuwe Amstelstraat 16 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/73e5ae0b-02db-4aa3-9ae5-64d2d0813770"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Stork"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16,Nieuwe Amstelstraat 16 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3a80b17e-ff62-43a1-b3d7-71b34be4c374"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Swaalep"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-07-31",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f1a6983c-89a6-4ef1-872d-11a87df17da6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Daniël Coëlho"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9426b26c-16b0-48da-a270-650f85f33720"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Kloos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-05-13",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

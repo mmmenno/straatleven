@@ -1,0 +1,62 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9d1ffcda-9382-4823-817c-2537d91d2c11"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Lion Winnik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 153 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9d1ffcda-9382-4823-817c-2537d91d2c11"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Lion Winnik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 153 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-01-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cd68981a-532e-4f1b-a961-32b5fbf6a921"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Winnik"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 153 I"
+        }
+      }
+    ]
+  }
+}

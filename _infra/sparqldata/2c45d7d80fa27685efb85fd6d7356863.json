@@ -1,0 +1,114 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a6209ef5-2abc-4443-909e-9d12ee3bfb9b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Croonenberg Simon"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-02-13",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b3a0c7c5-b805-431f-9d4d-e2f17a07518e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aron Hes"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-09-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f37204a9-72b5-4940-899c-d8f206395b2c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Croonenberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e6795ad2-6beb-4623-b8f2-8309006c83ca"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sientje Messias - Legerman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0afb400b-9981-41d9-b2d4-bb9cd7f488bd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Dina Stork"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f2c3d728-4f2e-476f-ab8f-ed882555f68f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Messias"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 14 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1936-09-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

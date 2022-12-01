@@ -1,0 +1,674 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "lp",
+      "labels",
+      "residents"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022430"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 42 I,Batavierstraat 42 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022350"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 23"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022435"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 32 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022433"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 36,Batavierstraat 36 ,Batavierstraat 36 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022411"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 80 II,Batavierstraat 80 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022410"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 82 II,Batavierstraat 82 III,Batavierstraat 82 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022439"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 26"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022392"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 103,Batavierstraat 103 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022363"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 49 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022447"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 10 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022366"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 55 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022445"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 14 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022398"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113,Batavierstraat 113 ,Batavierstraat 113 I,Batavierstraat 113 II,Batavierstraat 113 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022378"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 77,Batavierstraat 77 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022448"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 8"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022443"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 18 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022382"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 85 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022417"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 68,Batavierstraat 68 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022357"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 37 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022395"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 107 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022438"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 28,Batavierstraat 28 I,Batavierstraat 28 II,Batavierstraat 28 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022408"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 86 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022367"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 57 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022359"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 41,Batavierstraat 41 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022342"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 7 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022434"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 34 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022397"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 111 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022404"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 92"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022420"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 62 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022349"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 21 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022412"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 78 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022386"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 91 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022431"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 40 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022423"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 56,Batavierstraat 56 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022396"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 109 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022451"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 2 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022432"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 38 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022340"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 3 ,Batavierstraat 3 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022418"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 66 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022354"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 31"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022391"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 101 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022343"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 9 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022429"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 44 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022446"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 12,Batavierstraat 12 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      }
+    ]
+  }
+}

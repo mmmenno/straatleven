@@ -1,0 +1,138 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bdd0b809-c3ef-45c0-8ed5-40d453e7226b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Berklou"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-11-05",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/60ce64f5-54ac-4a64-8718-b547c7347956"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Johannes Petrus Spel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9fd424f3-5a32-4e2a-9b3f-f73dd3bf1b24"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-05-21",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/091ebd94-c8c6-4862-8dfe-512d95ddeccf"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jonas Drukker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8b25ebfa-b207-4cb4-a20c-5b0d2852edf3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob van Dal"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-07-17",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/26c6620e-a9f6-4d6b-89ab-74f759cc9309"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog van Velzen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1930-11-05",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a171529b-b0d0-4eab-a6bb-6ab0d209ce6b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 2 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-05-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

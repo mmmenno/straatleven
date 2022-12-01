@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d2db4d6c-00a6-4512-8c06-44d5e76fa74f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Waas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 120 I"
+        }
+      }
+    ]
+  }
+}

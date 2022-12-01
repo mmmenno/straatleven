@@ -1,0 +1,132 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/573ae609-147d-4159-8c09-308aec141535"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Maurits Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-03-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2e1d236a-6371-4757-ad76-fa2bad995077"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izaak Halberstad"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67,Jodenbreestraat 67 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3b94b274-1bc8-41c9-917a-630012ed6816"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Lena Grishaver - Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6c9c7095-b474-4173-aaf8-07decce13fc4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67,Jodenbreestraat 67 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/573ae609-147d-4159-8c09-308aec141535"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Maurits Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f35f84d7-b8c3-4a54-8641-931fe4bbc1e9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/82eb2516-7fe8-4459-936a-3a9633ffd90d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67,Jodenbreestraat 67 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c0e75c4b-eef4-4f61-9bc6-ddadbb035533"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Theeboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 67 II"
+        }
+      }
+    ]
+  }
+}

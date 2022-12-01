@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ba2dcf5e-23cc-463c-9816-96ed7cb231c8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Arpels"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 114 II"
+        }
+      }
+    ]
+  }
+}

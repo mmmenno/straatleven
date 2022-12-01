@@ -1,0 +1,512 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b295a054-fb2c-4236-923a-d978ebe7082e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog de Boer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6a1d87a6-172c-4bf8-b08a-baa5b32731d4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/98cdad75-3c5c-4451-859d-744808b78765"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Josef Naarden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 c II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f716e395-0582-41de-bf2f-90a7fe7678fb"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 C I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9893e332-8136-4c65-b2b9-374b21a818a0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izaäk Haim Querido"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 D III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-07-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7c27c35b-45d5-4293-b83d-490d73cd461b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jansje Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d43076eb-5ff9-4f2a-b4e8-99c8028af48f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Pop"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 D III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-06-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8748acb3-7717-4d41-9749-51e17f5f10a1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Rootveld"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e9c1bceb-285d-45dd-b143-bbd0da726dca"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Esther Soesan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 D II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c1bb882b-a120-41b0-adef-14912361cbc5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 C I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b341154a-1ff8-48da-b59f-55f774d1c05b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Mouw"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 C,Uilenburgerstraat 29 C III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/69913a14-9393-4f4f-a464-c3d21aba8d2d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Katharina van Gelder - Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 AII"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1ac6b24c-107f-45a8-9f2a-5d41721b0fa1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jansje Turfreijer - Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/24b45f39-0784-4453-be8c-07b9267b3ae2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Turfreijer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 3 p/a Kool"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-02-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/55bc3071-16bc-4e28-bba4-d4dfda6ad075"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Willem Alex Nicol. Hendr. Tas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1186f9e4-803b-40fe-9482-330a61a742d9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Daniel Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1f26fb97-c7dd-420e-a0d2-2cc71835fbfa"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Smeer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 C I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7cd02c4c-998b-4ae9-b902-ca074842be7d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Ruben Soesan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b93dd2fd-a8f0-4781-9840-a692089b6672"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 Ic"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9893e332-8136-4c65-b2b9-374b21a818a0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izaäk Haim Querido"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-12-04",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d761682d-c0e7-45a9-8ab7-19af9c44745b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Speijer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1780a229-0c13-48a0-92d5-915c43156191"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Soesan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 D"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8ab72726-d59e-4941-aaaa-05d48b36afc8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Hoepelman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/591a07bc-204d-4bd7-90ad-6317f34c9339"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Matthijs van Sweeden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B II p.a.de Boer"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-12-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8dae2f06-5c7f-45dd-aa53-e14667bde41f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gerrit Speijer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f269a520-ac10-4357-808b-ff18aa64e4b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin van Beem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ad2b086a-129a-4e68-85e2-0a18c248c30e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Schenkkan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9ac36581-abfd-4916-bd0a-93cf4a5ad7be"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Jacob Klok"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/75eaa19d-a3a4-4f59-9e96-6bc8f926e650"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rachel Mouw"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 C III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1ac6b24c-107f-45a8-9f2a-5d41721b0fa1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jansje Turfreijer - Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-09-30",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5a657431-c41c-49f8-9610-727e6ea0d43b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Speijer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 B III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/da5efd24-c3f6-4f40-8d26-59bc9b327aac"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Soesan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 D II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1ac6b24c-107f-45a8-9f2a-5d41721b0fa1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jansje Turfreijer - Kool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-06-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

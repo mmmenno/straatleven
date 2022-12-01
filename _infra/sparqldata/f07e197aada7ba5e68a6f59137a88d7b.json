@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f94f4344-f533-488f-81e2-109c48e4d11d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Mullem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 49 "
+        }
+      }
+    ]
+  }
+}

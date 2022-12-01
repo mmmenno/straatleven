@@ -1,0 +1,170 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6a637c0a-4e61-43ad-bb06-9b849513500d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4ec16199-c893-4441-bfc7-10684aaad1f7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aron Abrahams"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/78c4ead9-f31b-41ca-bda6-21b8d8cb4512"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eliazer de Groot"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fea838db-907f-4035-9dfe-21a00f6b3908"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 h p.a. Couzijn"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-10-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8eb2a71b-b840-4955-828e-d592580dd493"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Abraham"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c2381393-a783-4828-b70b-b3389d57c7f8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elias Garcia"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-04-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/871e9a53-a504-4185-9d19-1ed577276849"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15,Jodenbreestraat 15 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c71e279a-a185-4de7-b1f8-91ea2e96953c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Izaaks"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 I p.a. Nord"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-02-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5ce9781f-8bf3-4e01-8667-bba71731c860"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Abraham"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9c8299f1-1aa8-45f9-aab6-f11ef6aa4c54"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Cousijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 15 huis"
+        }
+      }
+    ]
+  }
+}

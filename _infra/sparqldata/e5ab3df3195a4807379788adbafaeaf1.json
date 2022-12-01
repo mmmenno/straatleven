@@ -1,0 +1,100 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9a5b8277-b975-4f22-a4c1-3361f96d4321"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Asser Nabarro"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26,Nieuwe Amstelstraat 26 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d868454e-edd0-4504-a3e4-7a5a2b1bdbe8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Konijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26 A I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1941-03-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9806e9d4-3b81-4c14-80e9-09cc30003206"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Lampie"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26 A I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-06-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/309bf97e-e5a4-4b26-8766-27f377d237d3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianna Swaab - Ramberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1941-03-31",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dab3b1ec-b071-4a23-934a-c60099161805"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Gerrit Sammes"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26,Nieuwe Amstelstraat 26 "
+        }
+      }
+    ]
+  }
+}

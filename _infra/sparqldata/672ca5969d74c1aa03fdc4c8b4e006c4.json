@@ -1,0 +1,152 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/78643b0e-ef79-41b0-bee4-a6b7afc28e99"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Branca Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-06-26",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f19df4ea-128b-47c6-baaa-d965c48ab9bc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Bernard Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b55be692-d58e-4f09-9fce-b67f1abeb0a8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Bernard Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e7489cd8-f2af-47a9-85c4-cbb97d8ff860"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8d67e1f5-314c-4be1-aec4-5da477af54de"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Therèse Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-09-28",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/43d7b2f7-5ca1-4325-aae9-e85724a69d45"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Betsij Piller - Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-09-28",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/384c9541-8b22-4cac-8fca-cdce1719b93e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Engelsman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1937-12-13",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b55be692-d58e-4f09-9fce-b67f1abeb0a8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Bernard Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-05-17",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

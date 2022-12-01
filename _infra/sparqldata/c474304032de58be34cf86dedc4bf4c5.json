@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2a5061c3-9dcd-44d9-9524-1ddc3febdfe5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Zacharias Smeer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 38 II"
+        }
+      }
+    ]
+  }
+}

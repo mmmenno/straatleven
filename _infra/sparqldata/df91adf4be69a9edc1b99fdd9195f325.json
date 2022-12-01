@@ -1,0 +1,109 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8174d492-2f09-4f4d-82f0-13d75441662f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Stouwer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-11-08",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cc1ce0ad-fe73-46c8-aecf-5196686e308e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Gobitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b57bc028-514e-4a16-8df4-a4413ad28d6b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Kleerekoper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39,Jodenbreestraat 39 ,Jodenbreestraat 39 hs"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/167a8c9a-a38b-4ce9-a5bf-d18f3316213a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Pront"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39,Jodenbreestraat 39 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dac6c6c0-f496-4f9c-aea1-5252385314c6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samson Kleerkooper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39 Huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1925-08-12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/28f32ed2-d01c-4656-8378-6d2d8500456f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Pool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 39,Jodenbreestraat 39 "
+        }
+      }
+    ]
+  }
+}

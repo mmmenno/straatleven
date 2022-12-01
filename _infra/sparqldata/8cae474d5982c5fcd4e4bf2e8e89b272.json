@@ -1,0 +1,109 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c32f6825-f5d8-4487-b4bf-01b8ae4618ab"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e0e2e85c-d245-4f83-a8e7-41b4669f1d02"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Anna Weening - Ferro"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1927-07-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/83f94878-3709-419c-ad92-527ba1aa92b8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianne Witteboon - Sanders"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-03-04",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8ff5cd22-2baa-4e13-b97b-6fbe7d505eda"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aäron Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4b1c6fd6-d06b-48cb-984f-a0b8470e0e34"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Auerhaan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a859f324-ca8d-44fe-bc51-c05522fe069b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Asser David Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 49 I"
+        }
+      }
+    ]
+  }
+}

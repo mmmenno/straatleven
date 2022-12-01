@@ -1,0 +1,198 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f07c5cc2-8826-492a-9cd5-f4afed0e98d9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Leendert Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1049ed0a-61f8-4ab0-8fe4-0aa5de2c1d84"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Zadok Konijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/78dbe9d8-1dc4-4779-894b-5c531e8b8302"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c720c41c-a378-4ee3-adac-82249c2707a7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Cohen - Appelboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-05-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/19294dfd-24c3-49d4-98a7-1b2cff4c70c5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c9b25d89-4f7b-4ba7-a937-3a3617cfe391"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Antoni Haak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/38df60d3-f81d-4272-8205-1a647a62bed9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Kesnar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e43849bc-70bb-4752-a5e1-5b2da3d55ebc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Halverstad"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-07-29",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c084d3b2-4a20-4c41-9648-8462a4681dc1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/03887070-11d5-49f0-b0cd-8cb688843309"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Konijn"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6182aacd-2ce9-4a60-93b5-79f80c03d081"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Hamburger"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/78dbe9d8-1dc4-4779-894b-5c531e8b8302"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 50 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-05-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

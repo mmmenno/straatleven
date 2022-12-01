@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/53dd27cc-0096-46f2-a90d-22d96071150b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Presser"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 22 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4163e3fd-c428-4fef-8acf-a1ec863c573e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Presser"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 22 I"
+        }
+      }
+    ]
+  }
+}

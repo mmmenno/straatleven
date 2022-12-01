@@ -1,0 +1,226 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/db366619-a57c-46bc-bdd6-e9d8f20e7368"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jonas Drukker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19,Jodenbreestraat 19 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b341154a-1ff8-48da-b59f-55f774d1c05b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Mouw"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/92f40e43-723c-43cc-8f0b-9b07d3296204"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Drukker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19,Jodenbreestraat 19 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e6cbb1fe-6c98-4287-b547-c62437dd919c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianne Smalhout"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cca4f37b-143a-4222-b98f-08e498b64ce0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Hijman Smalhout"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/51a19b2c-9af8-429d-9128-f091e7b11451"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Kaatje Mouw - Rijxman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ed223c9d-3065-4910-9d46-14b09f0a469a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Smalhout"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/df7f95ba-e44f-43e0-a200-e76a7c805046"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Christina Kapper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 hs"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1927-06-27",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3dfc851b-18ae-4374-97ae-d9d35898271c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin Smalhout"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 I,Jodenbreestraat 19 I  verhuisd z. adres"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/23dcc1a3-391c-4a94-b292-6538be1db2a3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Smalhout"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1eefbe2b-0726-4259-8501-9ad7fb37802a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Drukker"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19,Jodenbreestraat 19 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5a5b1308-d37e-4d05-a6ef-bd319dae7581"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Zwaab"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8174d492-2f09-4f4d-82f0-13d75441662f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Stouwer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-01-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fbcad70f-5548-4ef2-a82a-0170ac40bb9e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levi Simon Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 19 Huis p.a. Stibbe"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-07-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

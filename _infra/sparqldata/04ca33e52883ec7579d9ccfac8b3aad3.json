@@ -1,0 +1,62 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8d6dd485-8317-4598-851c-f0cbc6ac7d5f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Meljado"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 1 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/27372e39-fb22-4246-b256-fe42d8df39ea"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Haim Gaim de Metz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 1 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-12-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fcb3545c-9af3-437e-87c0-7fd348bc8091"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elisabeth de Metz - Vos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 1 II"
+        }
+      }
+    ]
+  }
+}

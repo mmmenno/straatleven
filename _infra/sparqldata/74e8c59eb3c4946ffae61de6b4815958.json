@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0c63e83c-7687-4801-8a12-59d0f618261f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Visjager"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 91 I"
+        }
+      }
+    ]
+  }
+}

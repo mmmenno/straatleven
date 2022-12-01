@@ -1,0 +1,57 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0d999e60-1849-40be-8074-d1d15e1a0e2f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Pekel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 116 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ee6bfad1-2736-4b67-aaa7-3a8958d76612"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elias du Pont"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 116 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c2faafc3-3870-415f-a077-03f8ae234215"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob de Hoop"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 116 "
+        }
+      }
+    ]
+  }
+}

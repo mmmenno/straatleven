@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/242b999b-0891-40d3-be5a-a9ef37f83c45"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 3 II"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6c4cf564-3aea-4efe-9c93-a62c22ec0f7f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Aleng"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31,Nieuwe Amstelstraat 31 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e31f3ff8-7c46-4c9b-94ec-0b4b840e797c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Roosje Pool - van der Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-03-27",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fa0edfb5-4559-47ee-8b95-2c67b1141d4a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacques Vos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 3"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/58d0edf8-623e-46a0-ae05-453d0cc2a29d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8b6537c9-f350-4042-a915-801318b56d5a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Johan Vrouwes"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-05-17",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/242b999b-0891-40d3-be5a-a9ef37f83c45"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Barend Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a8b9ff69-346a-405d-b24e-11cf2ee43bbe"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianne Perels - Bierman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31,Nieuwe Amstelstraat 31 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/724b062d-fb1d-43f2-b487-bd84a98a3fda"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Maurits van der Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31,Nieuwe Amstelstraat 31 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d7d6b508-a9f3-4be9-8819-e69d97963847"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Jacob Vieijra"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1932-04-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9394402d-208d-43b7-9d74-100351f01b25"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0fc49ca8-6591-42be-b2ae-c2ef74decdab"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Calff"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 III p/a Meng"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-02-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7c4a3140-1c01-4797-89d5-93710aaee0a3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alex Alengs"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31,Nieuwe Amstelstraat 31 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e58fd9ae-f384-48f9-8c91-3359aedb8c5c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog van der Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31,Nieuwe Amstelstraat 31 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c712df57-dc26-4b70-b49c-c9d80dac21c5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Katoen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 31 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-02-08",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

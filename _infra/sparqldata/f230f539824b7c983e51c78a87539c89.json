@@ -1,0 +1,48 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/16bee790-37f1-48dd-b6fe-5689e5c33770"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abigaël Corper - Nabarro"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 33 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0fc49ca8-6591-42be-b2ae-c2ef74decdab"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Calff"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 33 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1925-04-29",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

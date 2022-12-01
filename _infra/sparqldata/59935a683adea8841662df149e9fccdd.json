@@ -1,0 +1,48 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c32f6825-f5d8-4487-b4bf-01b8ae4618ab"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Brilleslijper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 59"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cbad7660-dd16-4d33-85f8-97ab33942a6b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 59 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-01-02",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

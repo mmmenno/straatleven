@@ -1,0 +1,67 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dc710f3e-0b50-460c-86ca-07cec39b7fad"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Carolina van Leew - Piller"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 43 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1946-08-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/42903d6c-1a18-4d83-8c45-1802c956ae7b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Komkommer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 43 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-11-19",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b5558bdf-7bb2-4f15-97a0-acb99c736c0b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Komkommer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 43 boven"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f079ce88-5f42-4067-8fae-a979162e9324"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 75 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-03-30",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

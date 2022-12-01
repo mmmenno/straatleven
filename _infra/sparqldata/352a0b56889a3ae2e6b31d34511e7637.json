@@ -1,0 +1,100 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bcebfb08-b61e-4660-a52c-ac72e11acd9c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Schrijver"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-10-08",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bcebfb08-b61e-4660-a52c-ac72e11acd9c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Schrijver"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 hs"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d84b07cc-f481-41ba-bcdd-7c59bee10f44"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jeannette Elsas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1931-04-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4b1d61f9-cc34-4bb4-b5c2-a80e334edcb8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Elsas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1931-04-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4b1d61f9-cc34-4bb4-b5c2-a80e334edcb8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Elsas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 19 "
+        }
+      }
+    ]
+  }
+}

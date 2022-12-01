@@ -1,0 +1,175 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/15baadbf-a000-45a4-9d4c-cfdf0be357ef"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 hs"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/71df4761-137a-453c-9f2c-063ac67e9bfa"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45,Nieuwe Amstelstraat 45 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ce367cba-4651-4a9e-8e90-4de939d51be4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Petronella Abraham - de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45,Nieuwe Amstelstraat 45 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6d163914-9792-40d5-9bda-8b0615cf46c2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Ype Plantinga"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 p/a Prins"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/09673c2c-85f0-40b7-8530-4357a20cb563"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Wijnschenk"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 boven"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1927-10-31",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/423ab135-e343-47be-9edf-b3b2482f72b9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 huis p/a Prins"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-10-08",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1a094464-6673-4a45-90d0-754e3e4176e3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Femma Dasberg - Pais"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e15effc8-0543-496a-9ba9-507589365f81"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Stein"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45 boven"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-10-06",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/423ab135-e343-47be-9edf-b3b2482f72b9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45,Nieuwe Amstelstraat 45 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-04-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e206c4e5-5104-4f10-85ed-42a4d89fe480"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rachel de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 45,Nieuwe Amstelstraat 45 "
+        }
+      }
+    ]
+  }
+}

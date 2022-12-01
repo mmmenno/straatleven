@@ -1,0 +1,53 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dcb2f813-bcb6-4e35-bec7-63b7c4606316"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Klisser"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 57 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-02-27",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f89bf1f3-408f-4743-abe3-75f42fa41785"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Esther van Abbe"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 57 boven"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-09-18",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

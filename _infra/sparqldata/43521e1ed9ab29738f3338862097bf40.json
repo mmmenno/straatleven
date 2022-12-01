@@ -1,0 +1,62 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cc1ce0ad-fe73-46c8-aecf-5196686e308e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Gobitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 44 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-08-20",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f94f4344-f533-488f-81e2-109c48e4d11d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Mullem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 44 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/73460e2d-9cf8-4b7f-b677-7040afd6a430"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Mullem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 44 I"
+        }
+      }
+    ]
+  }
+}

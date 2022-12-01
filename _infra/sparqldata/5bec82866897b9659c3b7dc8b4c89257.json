@@ -1,0 +1,166 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cbad7660-dd16-4d33-85f8-97ab33942a6b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-11-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4b0b8514-0533-4850-8d15-4d9483c28ddc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aron Goedel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a99c9d9e-e217-4359-b26c-1aae2d9bb23d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes a Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b81bb649-2342-4af3-aaef-f1d821d0ea17"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Pinas Walg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-03-12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/104f68ff-2fd8-46c4-acb3-33c0741a3a23"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e6bfdc3f-3146-4e0b-8c73-78e2b389d3f2"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mina Koe - Ossedrijver"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-06-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/64032963-76f1-4fa3-8887-9b756e517aaf"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Koopman - Ossendrijver"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-06-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1e3e3eb6-f48c-48b8-9d6b-a101a97a0f88"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob a Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/09babc95-670b-407f-80fd-20c35b5f5c0c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Flora Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 66 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-11-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

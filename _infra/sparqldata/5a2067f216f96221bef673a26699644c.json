@@ -1,0 +1,183 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5a2930f1-64d1-4370-a616-67e5b2f6ec4c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ac9942fa-c4c6-48bb-95a6-d591f08c2fd3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Schoolmeester"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8174d492-2f09-4f4d-82f0-13d75441662f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël Stouwer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/69fe7295-10be-46f0-b47a-9aa25ee9c7af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Soesan - Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/eb520b11-c147-48d9-9988-f2549b242d4a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d918fb55-5c31-4f00-ba06-505886e3868d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Wagenhuis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/33b4d55d-5a75-4ef5-9b13-4c4edc491e4b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Emanuel de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ccf89aa9-8bdb-457d-8c93-f11c1f3cb80d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Emden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f9fc8e23-49c6-4cb5-81e7-6578830cc02b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Kat"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/61fe37b1-07e0-483c-ac91-2c8adb47f59f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/441ea5d1-25c6-4d2e-b993-add56adfc2ff"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Stouwer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/34e5396b-e764-4652-9eac-c2cd37eb8a16"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Stouwer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105 A I"
+        }
+      }
+    ]
+  }
+}

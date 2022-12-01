@@ -1,0 +1,72 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c2e7c640-4e53-43ff-8285-abf2e82ed8ec"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rachel Dingsdag - Groen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 24 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-10-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/423ab135-e343-47be-9edf-b3b2482f72b9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 24 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1925-04-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/309bf97e-e5a4-4b26-8766-27f377d237d3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianna Swaab - Ramberg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 24 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1945-08-24",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1472ec14-ae50-4d03-9196-e1a6d61f0bf6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Wolf de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 58 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-09-29",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ad659fb7-555c-4e0e-82a1-6a842d5564db"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 58 II"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/85794ac0-b542-4f15-a3f3-74f54cd6783a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marianne Orpes - Koord"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-11-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/94fe47c2-4851-4730-a0c6-f59d288fe44c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Appelboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a45523c1-301c-42ed-84ce-f9bda082327f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Walvis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50,Uilenburgerstraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d83482c7-f02d-471f-af20-0ae637d2fcaf"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham van Staveren"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50,Uilenburgerstraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e2977fa6-fe57-4f38-84ab-abe9a33bcb04"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Michel Walvisch"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50,Uilenburgerstraat 50 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1deb0d20-d0b5-4e15-b710-7858487597a5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Appelboom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50,Uilenburgerstraat 50 "
+        }
+      }
+    ]
+  }
+}

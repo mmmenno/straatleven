@@ -1,0 +1,85 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ad582b6b-2759-49ba-8cb9-31e809908782"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4fa0a691-17b1-4307-8fdb-c4994d798225"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes de Hond"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c22cfb89-117f-4f5c-a099-eb0a743012b9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e8024959-62d7-47f7-87a5-17144348c9db"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Schelvis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/29523d68-1e24-4967-9ea1-4b201b37eca8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Reis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157"
+        }
+      }
+    ]
+  }
+}

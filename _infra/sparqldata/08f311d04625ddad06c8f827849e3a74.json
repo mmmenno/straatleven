@@ -1,0 +1,138 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6fd2eb28-6b8a-4bba-82f0-302593b97a56"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Michel Halberstad"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-04-11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fea838db-907f-4035-9dfe-21a00f6b3908"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/305aa827-7a26-42e0-9e7b-c7c4a03a42a7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-04-26",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ab9718eb-b692-45ef-8ed7-19c375155a80"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacques Schatz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/305aa827-7a26-42e0-9e7b-c7c4a03a42a7"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meijer Barber"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-08-05",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6fd2eb28-6b8a-4bba-82f0-302593b97a56"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Michel Halberstad"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-06-11",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d27ad1f7-2760-4bf2-aff5-02b424ee1bd0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon van Velzen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 11 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1930-11-05",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

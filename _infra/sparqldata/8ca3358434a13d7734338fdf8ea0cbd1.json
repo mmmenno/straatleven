@@ -1,0 +1,100 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c2381393-a783-4828-b70b-b3389d57c7f8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elias Garcia"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 hs"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1939-06-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c7c5d0e2-b1a7-467b-8cdb-d8ed8b70921a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob de Leon"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-02-21",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/475af83b-891e-4f47-a94e-32d4176fce90"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Godschalk Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7467e10f-b2ee-4986-a6f6-744701472168"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon van Velzen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ddf457d1-c60e-4803-a556-56b4583e348b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip H. Beijer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 17 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1950-00-00",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

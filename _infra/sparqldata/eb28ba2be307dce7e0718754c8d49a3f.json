@@ -1,0 +1,57 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a90bca8e-5fb9-42f8-a914-c6d6b034b080"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 54 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1472ec14-ae50-4d03-9196-e1a6d61f0bf6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Wolf de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 54 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/33b4d55d-5a75-4ef5-9b13-4c4edc491e4b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Emanuel de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 54 I"
+        }
+      }
+    ]
+  }
+}

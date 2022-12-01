@@ -1,0 +1,123 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5655c80a-190f-4824-9518-e073c182d09a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benvanide Querido"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/44df99ac-7449-4f9d-ba05-a47215df5e6c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Leuiken"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/44df99ac-7449-4f9d-ba05-a47215df5e6c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Leuiken"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1938-07-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a6ce69b5-6ba7-4afd-8db3-fa21c632d836"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Aaron Gans"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/03005e43-1910-4607-97c6-0e00d6bec4e4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Querido"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/94b0a8bf-d803-4fcc-99da-959ed2cc6618"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jesajes de Brave"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1939-01-18",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/89d42fc9-dd10-44e6-aa8b-bb4bfe88bc1e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Querido"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 huis"
+        }
+      }
+    ]
+  }
+}

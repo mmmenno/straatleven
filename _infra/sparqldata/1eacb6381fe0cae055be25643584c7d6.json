@@ -1,0 +1,99 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2d47cf58-bd68-431f-97c0-a1fd3f844206"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judith van der Kar - Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/746ef2af-2ce0-4eca-843c-49ade786a6f3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander de Vries"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/670b9d30-5bd4-4314-b6fb-cb44da3ff1c3"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Haia Raisman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c9a2a62b-bf68-4618-a887-56b234419467"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hendel Feitelbaum"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1dc4abef-ac70-4a85-b042-902759b2ba26"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Jacob Stork"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 p/a Asser"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4e46fdee-ad4e-4ff3-bdbf-a6afdffb9405"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Salomon Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 ,Nieuwe Amstelstraat 17 I"
+        }
+      }
+    ]
+  }
+}

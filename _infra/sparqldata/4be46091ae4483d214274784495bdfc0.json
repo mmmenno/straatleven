@@ -1,0 +1,85 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/179491fa-6214-435b-8e09-069c1a3a7fe1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Reens"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3a1ab459-58d1-4dd1-ac23-70a07a99d2ff"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meyer Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 3,Jodenbreestraat 32 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e384e045-597f-4b01-966e-3dde83d5b160"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Emanuel Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/df7f95ba-e44f-43e0-a200-e76a7c805046"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Christina Kapper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/51adce1f-1aa9-4d9e-b173-f403d4d4aef8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 32 III"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e37b7e50-c18a-4d11-967c-1414e3783f9f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Tobias Pool"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 69 I p/a Cohen"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-05-04",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

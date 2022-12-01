@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3b80f599-a049-4792-ad9c-45c9752f3cfd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Moscou"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 86,Uilenburgerstraat 86 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e86fc540-60ea-4fa3-809e-b4d2d7a9a187"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Joseph Moscou"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 86,Uilenburgerstraat 86 "
+        }
+      }
+    ]
+  }
+}

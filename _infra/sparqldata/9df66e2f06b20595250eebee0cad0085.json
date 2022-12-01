@@ -1,0 +1,34 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4fa0a691-17b1-4307-8fdb-c4994d798225"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes de Hond"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 163 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-06-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

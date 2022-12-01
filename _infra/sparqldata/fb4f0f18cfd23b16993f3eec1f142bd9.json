@@ -1,0 +1,160 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/edf4688b-9d9c-47ba-be38-6cb240517b86"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Italiaander"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-11-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a79d377d-26a9-49a4-8853-f2ac280ab39d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Fransman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47,Jodenbreestraat 47 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1ebfbc28-d6d9-4b8b-a207-def7d043790a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Springer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6e5c3259-2dad-43de-ae1a-31fad2dae0be"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Grietje Springer - Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5f00119f-e00b-4f61-9d80-f709839d035c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Margaretha Waterman - Bril"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ed3f1f94-5f5e-40cb-b54c-1424e43337cd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Springer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/16c7ec09-b0c9-4b9e-8ad4-5ac62253f0ab"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Judith Posener - Prins"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1a5d8384-466c-4918-b639-ed4d654ce81d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4c88dae1-6e26-4699-ab11-0a04e7524af5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Springer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ff45501a-c908-42b5-83c1-46b3e04ec6c1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaac Stokvisch"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 47,Jodenbreestraat 47 "
+        }
+      }
+    ]
+  }
+}

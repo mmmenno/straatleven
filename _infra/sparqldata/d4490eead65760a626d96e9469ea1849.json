@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/522c7ec5-5a19-4be2-aa81-ad5e3fec2418"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Duits"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 118,Uilenburgerstraat 118 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/e67a31d9-eaaf-4958-968a-2a7aa6760c2b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Philip Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 118,Uilenburgerstraat 118 "
+        }
+      }
+    ]
+  }
+}

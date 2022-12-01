@@ -1,0 +1,81 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/24e382c7-98dd-44ec-891d-f7b66344f92d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Ereira"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 11 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1933-03-28",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/24e382c7-98dd-44ec-891d-f7b66344f92d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Ereira"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 11 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/641f0689-3b57-494a-b523-cd986065c665"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Ereira"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 11 III,Louis Bothastraat 11 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/50e28e2a-f19d-4078-b982-ee8bd1bed888"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Herman van Muijen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 11 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1923-05-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9146ab6b-0c94-4d95-a346-a295e441e58e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elisabeth van Praag - Mook"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133,Uilenburgerstraat 133 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ec3a0c11-d9d8-4c95-ab8d-ff000f0d2ec5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacobus Eliazar Roos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133,Uilenburgerstraat 133 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/14142cb3-4b50-4b2f-b249-34ab45c3401c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Ortje"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133,Uilenburgerstraat 133 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/35579a60-db0a-4cb6-bbad-4df1d9ab8555"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Gobetz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7c19715e-79e6-49b9-b991-29405c73791b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Zegerius - Beesemer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133 Ii"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1919-04-29",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/7c19715e-79e6-49b9-b991-29405c73791b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Eva Zegerius - Beesemer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133,Uilenburgerstraat 133 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ba2dcf5e-23cc-463c-9816-96ed7cb231c8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Arpels"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4257bda8-2abb-4c41-838a-1f7dfea0c216"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel Frankenhuis"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133 III"
+        }
+      }
+    ]
+  }
+}

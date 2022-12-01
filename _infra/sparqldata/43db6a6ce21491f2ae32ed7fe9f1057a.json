@@ -1,0 +1,34 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9c182009-59c1-4391-bfce-6b53ca51b85f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Schoontje Blitz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 15 Hs p/a de Wed: Zwart"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-02-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

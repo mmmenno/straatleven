@@ -1,0 +1,100 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f37a3e00-aecc-4645-9ed3-12264711883c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Soesman Citroen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/311af3da-a76f-4d3c-a90b-4310c41f1045"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joël van der Kar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 Huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1920-03-31",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/66b9fd07-2865-464d-a895-6dbbb9f41c9b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rozette Rosener - Barend"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-11-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/73c8b8de-df48-4903-a187-faea8f8c4b57"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Izak Barend"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1876-11-06",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9c9ac016-d57d-4ee8-a604-f8575bfd3707"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jochem Barend"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 II"
+        }
+      }
+    ]
+  }
+}

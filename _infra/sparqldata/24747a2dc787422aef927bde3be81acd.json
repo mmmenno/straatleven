@@ -1,0 +1,71 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/11d1a6d7-751d-4962-992a-3fe20a91ef63"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Snoek"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 68,Batavierstraat 68 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1db43e21-f607-4dcb-8c5e-3a9e37c6fdb0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel de Jong"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 68,Batavierstraat 68 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/250f21ab-eaf9-4555-b15e-569e83b61782"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Rachel Blits"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 68,Batavierstraat 68 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d58eb66c-6680-4ad6-9f5d-86ae429910af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Betje Blitz - Schavrien"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 68,Batavierstraat 68 "
+        }
+      }
+    ]
+  }
+}

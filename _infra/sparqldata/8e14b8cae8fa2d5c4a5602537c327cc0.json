@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0858cb18-2ae6-468a-acd8-09e74c529e36"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Roos"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 5 "
+        }
+      }
+    ]
+  }
+}

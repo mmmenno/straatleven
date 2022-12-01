@@ -1,0 +1,67 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/974c2fb5-4110-4711-97bc-754cd0bc36f5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Zadok Stokvisch"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 27"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ad99047b-1b84-4205-9cc2-4afb2aae5f9d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Blom"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 27 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-02-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/063fb6bb-5570-4199-953c-b18f5d28526d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes van den Berg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 27 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-07-27",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

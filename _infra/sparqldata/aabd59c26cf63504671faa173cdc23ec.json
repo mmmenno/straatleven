@@ -1,0 +1,203 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/840c780e-8889-436f-b83b-2e761fc503db"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Boas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0ed75f4b-0cfc-4c08-81ff-d442b6c9940c"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Andries Voet"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fe8ee893-b8bb-46f3-a902-a1040045ce8f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Cato Buijs"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-03-05",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2ca38b7e-ace4-46b2-93a2-85a06bd771ed"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Levie Voet"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5da50f0b-c4e4-4234-bf30-1796a39a1235"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Ruben Voet"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0351a2d1-9390-4886-9860-ad48d8597d51"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Nathan Limburg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-10-27",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/18310a39-86c2-47e6-9af5-2c57c3ced87a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Joseph Boas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/9b26601b-27b7-4574-b15e-d50471826d73"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob van Beetz"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-10-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b14f39c2-74cd-44ef-abf5-aa308b8094bd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Boas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 III"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1926-03-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/86dea9a9-998a-463b-932a-9538fade0f19"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Prins"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/05b71def-e13a-4ffe-bc62-b9e53cfc48d5"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Simon Voet"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8e13c358-96b5-49ab-9e15-609706b6dc0a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Prins"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 40 II"
+        }
+      }
+    ]
+  }
+}

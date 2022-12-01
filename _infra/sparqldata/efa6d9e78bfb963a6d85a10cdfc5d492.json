@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ccdb2cce-151e-4899-ad5d-b479e050f501"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Elzas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 57 III"
+        }
+      }
+    ]
+  }
+}

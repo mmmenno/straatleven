@@ -1,0 +1,81 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/3b1dcc8b-6fce-43b4-a5ee-c77a14252358"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Elias Rine"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 13,Nieuwe Amstelstraat 13 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/060c4976-d01d-4928-a9a2-357ddbf7902d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Hartog Frankfort"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 13,Nieuwe Amstelstraat 13 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2e7b75ba-2da1-4d84-8277-51801455b78a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sara Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 13 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-03-08",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/cb302e08-8320-4d7a-abe7-4f23b40cf90b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Abraham Bloemhof"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 13 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-02-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

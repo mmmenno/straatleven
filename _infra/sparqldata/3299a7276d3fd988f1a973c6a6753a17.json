@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2b97a965-f60f-47f1-80f1-83144699e49b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin Vischjager"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 23"
+        }
+      }
+    ]
+  }
+}

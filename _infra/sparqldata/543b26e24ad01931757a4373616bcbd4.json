@@ -1,0 +1,71 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/769d7adb-d21a-4eeb-87bf-01704b82aa4d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mietje Koster - Bing"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 36 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/874c3265-6131-490f-8ff4-5552f9f22f8b"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Marcus Koster"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 36 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/16b5e72e-64dc-47c3-af6b-df5a52bc7f49"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Koster"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 36,Batavierstraat 36 ,Batavierstraat 36 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d06fd221-99df-4669-8ea9-2a7c3a6c77dd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Soesan"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 36,Batavierstraat 36 "
+        }
+      }
+    ]
+  }
+}

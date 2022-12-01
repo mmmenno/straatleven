@@ -1,0 +1,105 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0245ddb2-85dc-4e30-9fab-97b750736392"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Samuel van Staveren"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/13152ccc-5659-47d2-9431-8dcbb907ee68"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Calman Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-03-17",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0f62c18d-1c70-4d0d-9b75-60cd424d7c47"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Isaäc Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-12-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dd262c5d-2404-4635-a66e-bab509e68faa"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-12-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/dd262c5d-2404-4635-a66e-bab509e68faa"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Scheffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 huis"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-01-12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

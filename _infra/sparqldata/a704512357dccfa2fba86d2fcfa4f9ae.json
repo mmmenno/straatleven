@@ -1,0 +1,57 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c3aaf82f-9065-4ace-bba6-d2bff9ca8422"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Asser Maurits van der Horst"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 65 ,Jodenbreestraat 65 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/0fd513d8-d181-4041-8d90-9c7f41f4df04"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Reina Prins - de Casseres"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 65 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6faa0638-0743-4cb8-8302-a229cd21b7af"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Branden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 65 "
+        }
+      }
+    ]
+  }
+}

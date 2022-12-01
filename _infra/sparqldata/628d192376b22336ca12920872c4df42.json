@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/bbde382b-a4cd-4d43-8f2b-55abd2582790"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Meyer Leisen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 112"
+        }
+      }
+    ]
+  }
+}

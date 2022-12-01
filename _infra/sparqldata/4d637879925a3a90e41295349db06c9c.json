@@ -1,0 +1,43 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/53218205-1af9-49ce-be54-3e677814c054"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes van Wezel"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 175 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8da0b9f3-7148-49db-a6b8-0eae4910dbfd"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Benjamin Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 175 fabr. gebr Boas,Uilenburgerstraat 175 huis"
+        }
+      }
+    ]
+  }
+}

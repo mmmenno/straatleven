@@ -1,0 +1,67 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1cb01412-c74e-4a25-94e1-df6f22b77dbc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Cardozo"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 31 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1cb01412-c74e-4a25-94e1-df6f22b77dbc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Cardozo"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 31 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-05-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/677460c7-5283-4e4b-a14e-3706f0be1997"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Maurits Cardozo"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 31 I"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1934-05-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

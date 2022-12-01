@@ -1,0 +1,179 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/22452ee6-2e0e-4178-badb-65d2a0aa4170"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Naarden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/82178aa1-dff5-4fd4-8bb2-2d56ddc86057"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jeanette Valenca"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/da481db1-784d-49e4-b16c-f79bb43a91c1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jeannette Hartog"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c10dabf0-eee3-4d7b-bd2d-4388e86adf89"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Johanna Meijer - Nord"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 v. z. advies"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1922-10-16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/ac55ccde-6404-4f62-a3b2-3bc7f20bd589"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hijman Engelsman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1615b419-8ea2-4e43-bdf5-dee0f8f69593"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izaac de Valencia"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/340482cc-673a-4891-bcfd-d658d1c40e99"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Metzelaar"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-10-03",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b18b3b5d-942d-447e-ab48-1e771dab3bea"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Willem"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c1f6a9ad-1fd5-49e3-adff-7eb6752c2bd0"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Michaël de Valença"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a6d33be4-0fbd-4f80-bc37-113ef6b34270"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Valenca"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/386b0d65-67a8-4b71-83db-d37459801cd9"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Engelsman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 79 III"
+        }
+      }
+    ]
+  }
+}

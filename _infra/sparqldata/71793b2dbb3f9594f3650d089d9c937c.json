@@ -1,0 +1,67 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/29b33534-f9bd-4238-b027-da78af7afafe"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Karel Lam"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 71 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1916-10-10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8d6dd485-8317-4598-851c-f0cbc6ac7d5f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Marcus Meljado"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 71 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5b350031-7062-4304-88d9-550677522870"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Bernard de Gorter"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 71 II Verhuisd"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-01-15",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f2c0d729-cead-4bd6-94e5-33e9f2b33817"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Elsas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113,Batavierstraat 113 ,Batavierstraat 113 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/f1b239aa-c5b6-4b6a-9125-3536ee090b40"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Peper"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/70e52513-15dc-4d92-a586-f7dda19c1035"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izak Druijf"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/38e0e622-27d6-4e6d-9037-128807c7d8fc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Elzas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113,Batavierstraat 113 ,Batavierstraat 113 III"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fb93a89a-a5a2-4a2b-b77a-0eadbe18ae4a"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louise Gaarkeuken - Boas"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 113 I"
+        }
+      }
+    ]
+  }
+}

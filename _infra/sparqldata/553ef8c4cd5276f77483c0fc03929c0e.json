@@ -1,0 +1,34 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/2b59a5d1-28f6-4fd4-a3a1-885095a9a8bc"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Kaatje Goudsmit - Engelander"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 32 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1921-04-14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

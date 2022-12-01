@@ -1,0 +1,203 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/90004d91-ca66-4979-b951-cfc19e6195d1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Juda van den Berg"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1944-02-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6d001b07-0273-454f-85a6-c3fa6d7a8d95"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Heintje Bleekveld - Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46,Jodenbreestraat 46 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a99c032d-7043-42dd-9724-7f69ff8006b1"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Spaanbroek"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46,Jodenbreestraat 46 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/d827d8d3-e730-4772-9595-f214b6ebc226"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Abraham Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c724c3e3-6338-4432-857b-06332c806a8f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Anna Rodrigues - Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/4399080d-b642-42d3-89ce-cb445e9055c6"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Kyzer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46,Jodenbreestraat 46 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b3ecc5fc-de06-4fa9-962a-4e7649b1b557"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jozef Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/c91bc1d5-b437-431d-90f2-2a783f37f175"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Sientje de Hoop - Waterman"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46,Jodenbreestraat 46 "
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/34c43a54-8723-4d55-9c60-1adc43ab53e8"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Esther Maandag - Cohen Rodriques"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/fbd43ef4-d9ef-4b51-b576-7a6b634c054f"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jacob Veffer"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1928-03-01",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b7e5e3be-703e-41e5-9f0a-cd7bb635079e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Salomon Rodriques Cohen"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-04-23",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/da085534-32d9-457e-8a4f-86a961ed223d"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Mozes Rodrigues"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 46 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1917-05-02",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}

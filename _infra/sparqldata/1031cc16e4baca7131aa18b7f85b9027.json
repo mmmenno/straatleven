@@ -1,0 +1,76 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8bb5196b-2a2f-4682-a78a-e4e798881c4e"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Henri de Rosa"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 3 "
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1918-05-07",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/5197251c-b222-440e-9904-5c42e68d9db4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Izaak Wurms"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Uilenburgerstraat 10 I"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/1cffe09a-f0d7-434c-851a-645e13786755"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Jochem van Cleef"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 3 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b296ec4f-71da-4617-9e19-4dbf1ba60857"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Manus Polak"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 3 "
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/6d43ec16-0e11-4456-9f06-7b31e11468f4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Levie Buitenkant"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 48 I"
+        }
+      }
+    ]
+  }
+}

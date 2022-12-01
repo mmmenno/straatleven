@@ -1,0 +1,62 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/00b2d7f0-1891-4c52-b3a8-6a934141f379"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "David Frank"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 29 III,Louis Bothastraat 29 II"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b1b21ea9-888b-44cc-8e46-07ebc7549c45"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Hartog Frank"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Louis Bothastraat 29 II"
+        },
+        "begindate": {
+          "type": "literal",
+          "value": "1924-02-18",
+          "datatype": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/b0db0f17-7f70-4efd-88ed-4a8c21782247"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Louis Frank"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Albert Luthulistraat 29 II,Louis Bothastraat 29 II"
+        }
+      }
+    ]
+  }
+}

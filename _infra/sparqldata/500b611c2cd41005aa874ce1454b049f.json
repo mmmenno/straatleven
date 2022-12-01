@@ -1,0 +1,29 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/8885652d-5ae8-454f-9856-b49158461688"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Alexander Salomon"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Batavierstraat 55 huis"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,809 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "lp",
+      "labels",
+      "residents"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022189"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 41,Uilenburgerstraat 41 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022245"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 133,Uilenburgerstraat 133 ,Uilenburgerstraat 133 I,Uilenburgerstraat 133 II,Uilenburgerstraat 133 III,Uilenburgerstraat 133 Ii"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022262"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 157,Uilenburgerstraat 157 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022272"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 120 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022201"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 59 B"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022260"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 153 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022258"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 151 I,Uilenburgerstraat 151 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022190"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 43 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022185"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 33 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022290"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 86,Uilenburgerstraat 86 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022325"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 22 I,Uilenburgerstraat 22 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022264"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 161 ,Uilenburgerstraat 161 Huis,Uilenburgerstraat 161 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022302"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 68,Uilenburgerstraat 68 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022206"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 69 III,Uilenburgerstraat 69 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022163"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 1 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022177"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 27,Uilenburgerstraat 27 I,Uilenburgerstraat 27 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022263"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 159,Uilenburgerstraat 159 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022172"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 17"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022236"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 117,Uilenburgerstraat 117 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022335"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 4 II,Uilenburgerstraat 4 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022248"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 139 II,Uilenburgerstraat 139 II p.a. de Vries,Uilenburgerstraat 139 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022178"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 29,Uilenburgerstraat 29 ,Uilenburgerstraat 29 3 p/a Kool,Uilenburgerstraat 29 AII,Uilenburgerstraat 29 B,Uilenburgerstraat 29 B I,Uilenburgerstraat 29 B II,Uilenburgerstraat 29 B II p.a.de Boer,Uilenburgerstraat 29 B III,Uilenburgerstraat 29 C,Uilenburgerstraat 29 C I,Uilenburgerstraat 29 C III,Uilenburgerstraat 29 D,Uilenburgerstraat 29 D II,Uilenburgerstraat 29 D III,Uilenburgerstraat 29 I,Uilenburgerstraat 29 III,Uilenburgerstraat 29 Ic,Uilenburgerstraat 29 c II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "30",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022541"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 116 ,Uilenburgerstraat 116 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022202"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 61 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022306"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 60,Uilenburgerstraat 60 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022205"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 67"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022304"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 64,Uilenburgerstraat 64 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022251"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 143 ,Uilenburgerstraat 143 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022298"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 72 III"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022249"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 141,Uilenburgerstraat 141 ,Uilenburgerstraat 141 A,Uilenburgerstraat 141 A I,Uilenburgerstraat 141 I,Uilenburgerstraat 141 boven"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "8",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022312"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 48 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022184"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 31 ,Uilenburgerstraat 31 I,Uilenburgerstraat 31 II,Uilenburgerstraat 31 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022318"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 36 I,Uilenburgerstraat 36 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022188"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 39 I,Uilenburgerstraat 39 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1029823"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 175 ,Uilenburgerstraat 175 fabr. gebr Boas,Uilenburgerstraat 175 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022237"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 119,Uilenburgerstraat 119 A,Uilenburgerstraat 119 A I,Uilenburgerstraat 119 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022227"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 105,Uilenburgerstraat 105 A,Uilenburgerstraat 105 A I,Uilenburgerstraat 105 A II,Uilenburgerstraat 105 A huis,Uilenburgerstraat 105 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "12",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022309"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 54 ,Uilenburgerstraat 54 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022217"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 85"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022276"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 112"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022320"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 32 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022186"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 35,Uilenburgerstraat 35 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022317"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 38 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022315"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 42 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022307"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 58 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022279"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 106 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022273"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 118,Uilenburgerstraat 118 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022303"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 66 ,Uilenburgerstraat 66 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022322"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 28 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022265"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 163 I"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022332"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 10,Uilenburgerstraat 10 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022275"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 114 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022311"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Uilenburgerstraat 50,Uilenburgerstraat 50 ,Uilenburgerstraat 50 I,Uilenburgerstraat 50 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      }
+    ]
+  }
+}

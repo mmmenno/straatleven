@@ -1,0 +1,57 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "resident",
+      "residentlabel",
+      "labels",
+      "begindate"
+    ]
+  },
+  "results": {
+    "bindings": [
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/a8ed891d-e7ca-4268-b875-99e571a0d2a4"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Henoch Soester"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 62 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/24236b94-eba4-41be-a85b-d5aaf2fd3494"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Karel Hamerslag"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 62 huis"
+        }
+      },
+      {
+        "resident": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/id/adb-andb/02ec8d8e-0f82-4dbd-932c-0e9173676b31"
+        },
+        "residentlabel": {
+          "type": "literal",
+          "value": "Vrouwtje van Praag - Naarden"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 62 I,Jodenbreestraat 62 II"
+        }
+      }
+    ]
+  }
+}
