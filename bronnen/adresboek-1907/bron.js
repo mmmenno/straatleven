@@ -32,7 +32,8 @@ function refreshMap(){
                     markertitle += "<br />op dit adres";
                     
                     return new L.CircleMarker(latlng, {
-                        color: "#0068ec",
+                        color: "#fff",
+                        fillColor: "#0068ec",
                         radius:8,
                         weight: 0,
                         opacity: 0.7,
@@ -102,9 +103,24 @@ function rollover() {
 }
 
 function whenClicked(){
+
+    var keys = Object.keys(lps._layers)
+    keys.forEach(function(key){
+        lps._layers[key].setStyle({ 
+            weight: 0,
+            opacity: 0.7,
+            fillOpacity: 0.7
+        })
+    })
+
+    $(this)[0].setStyle({
+        weight: 4,
+        opacity: 1,
+        fillOpacity: 1
+    });
     
     var props = $(this)[0].feature.properties;
-    console.log(props);
+    //console.log(props);
 
     $("#main").load('bronnen/adresboek-1907/adres.php?occupants=' + encodeURIComponent(JSON.stringify(props)));
 

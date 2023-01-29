@@ -12,7 +12,7 @@ function refreshMap(){
 
     $.ajax({
         type: 'GET',
-        url: 'bronnen/diamantbewerkersbond/geojson.php',
+        url: 'bronnen/marktkaarten/geojson.php',
         dataType: 'json',
         data: {
             street: urlparams['straat']
@@ -25,9 +25,9 @@ function refreshMap(){
             lps = L.geoJson(null, {
                 pointToLayer: function (feature, latlng) { 
 
-                    var markertitle = feature.properties.cnt + ' diamantwerkers in'
+                    var markertitle = feature.properties.cnt + ' marktkaarthouders in'
                     if(feature.properties.cnt == 1){
-                        var markertitle = feature.properties.cnt + ' diamantwerker'
+                        var markertitle = feature.properties.cnt + ' marktkaarthouder'
                     }
                     $.each(feature.properties.labels,function(index,value){
                         markertitle += "<br />" + value;
@@ -36,7 +36,7 @@ function refreshMap(){
 
                     return new L.CircleMarker(latlng, {
                         color: "#fff",
-                        fillColor: "#a50026",
+                        fillColor: "#9b289c",
                         radius:8,
                         weight: 0,
                         opacity: 0.7,
@@ -82,7 +82,7 @@ function refreshMap(){
 }
 
 function getColor(props) {
-    return '#a50026';
+    return '#9b289c';
 }
 
 function getSize(d) {
@@ -90,7 +90,7 @@ function getSize(d) {
             d > 15 ? 17 :
             d > 10  ? 14 :
             d > 5  ? 11 :
-            d > 2 ? 8 :
+            d > 1 ? 8 :
                     5 ; 
 }
 
@@ -123,7 +123,7 @@ function whenClicked(){
     });
 
     var props = $(this)[0].feature.properties;
-    $("#main").load('bronnen/diamantbewerkersbond/adres.php?lp=' + props['lp']);
+    $("#main").load('bronnen/marktkaarten/adres.php?adressen=' + JSON.stringify(props['adressen']));
 
 
 }

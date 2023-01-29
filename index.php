@@ -30,7 +30,7 @@ if(!isset($_GET['bron'])){
 				
 				<select name="bron" class="form-select" style="width:30%; display: inline;">
 					<option value="jhm-personen" <?php if(isset($bron) && $bron == "jhm-personen"){ echo "selected"; } ?>>
-						personen JHM
+						todo: personen JM
 					</option>
 					<option value="diamantbewerkersbond" <?php if(isset($bron) && $bron == "diamantbewerkersbond"){ echo "selected"; } ?>>
 						diamantbewerkersbond
@@ -40,6 +40,15 @@ if(!isset($_GET['bron'])){
 					</option>
 					<option value="adresboek-1907" <?php if(isset($bron) && $bron == "adresboek-1907"){ echo "selected"; } ?>>
 						adresboek 1907
+					</option>
+					<option value="woningkaarten" <?php if(isset($bron) && $bron == "woningkaarten"){ echo "selected"; } ?>>
+						todo: woningkaarten
+					</option>
+					<option value="register-1864-1874" <?php if(isset($bron) && $bron == "register-1864-1874"){ echo "selected"; } ?>>
+						todo: register 1864-1874
+					</option>
+					<option value="err-inboedels" <?php if(isset($bron) && $bron == "err-inboedels"){ echo "selected"; } ?>>
+						todo: ERR inboedels
 					</option>
 				</select>
 
