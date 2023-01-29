@@ -32,7 +32,9 @@ SELECT ?deed ?givenName ?baseSurname ?surnamePrefix ?birthDate ?vergunningdatum 
   optional{
     ?deed rico:normalizedDateValue ?vergunningdatum .
   }
-  ?po pnv:hasName/pnv:givenName ?givenName .
+  optional{
+  	?po pnv:hasName/pnv:givenName ?givenName .
+  }
   ?po pnv:hasName/pnv:baseSurname ?baseSurname .
   optional{
   	?po pnv:hasName/pnv:surnamePrefix ?surnamePrefix .
@@ -59,6 +61,9 @@ foreach ($data['results']['bindings'] as $row) {
 
 	if(!isset($row['surnamePrefix']['value'])){
 		$row['surnamePrefix']['value'] = "";
+	}
+	if(!isset($row['givenName']['value'])){
+		$row['givenName']['value'] = "";
 	}
 	if(!isset($row['vergunningdatum']['value'])){
 		$row['vergunningdatum']['value'] = "";

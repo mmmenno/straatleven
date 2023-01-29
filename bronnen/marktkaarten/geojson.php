@@ -86,7 +86,7 @@ foreach ($data['results']['bindings'] as $key => $value) {
       "adressen" => array("https://adamlink.nl/geo/address/" . $adr)
     );
   }else{
-    $newcnt = $combined[$wkt]['cnt'] + $value['residents']['value'];
+    $combined[$wkt]['cnt'] = $combined[$wkt]['cnt'] + $value['residents']['value'];
     
     $combined[$wkt]['labels'][] = $value['labels']['value'];
     $combined[$wkt]['labels'] = array_unique($combined[$wkt]['labels']);
