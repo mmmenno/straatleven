@@ -123,6 +123,15 @@ if(!isset($_GET['bron'])){
 			</div>
 		</div>
 
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Museale en geroofde objecten</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
 	</div>
 
 </div>
