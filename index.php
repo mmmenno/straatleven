@@ -62,12 +62,69 @@ if(!isset($_GET['bron'])){
 </div>
 
 
-
-<div id="map"></div>
-
+<?php if(isset($bron)){ ?>
+	<div id="map"></div>
+<?php } ?>
 
 
 <div class="container-fluid" id="main">
+	<h1>Straatleven</h1>
+	<h2>Bronnen bij adressen in de Jodenbreestraat en de Nieuwe Amstelstraat</h2>
+
+	<div class="row">
+		
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Bewoners van het Joods kwartier</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Verschillende bronnen verbonden</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Een prototype voor de hele stad</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="row">
+		
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Persoonsreconstructies op basis van vermeldingen</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Aanpak</h3>
+				
+				<p></p>
+				
+			</div>
+		</div>
+
+	</div>
+
 </div>
 
 

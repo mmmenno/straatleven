@@ -4,7 +4,7 @@ body{
 	padding: 0;
 	font-family: "Helvetica Neue", Arial, sans-serif;
 	font-size: 16px;
-	background-color: #fff;
+	background-color: #646464;
 	color: #464343;
 }
 #topbar{
@@ -12,9 +12,19 @@ body{
 	color: #fff;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-bottom: 0;
 }
 #navbar{
 	text-align: right;
+}
+.container-fluid{
+	padding: 4px 24px;
+}
+#main{
+	margin-top: 0;
+	background-color: #fff;
+	padding-top: 8px;
+	padding-bottom: 24px;
 }
 #subheader{
 	background-color: #ac2336;
@@ -43,13 +53,14 @@ body{
 
 
 h1{
-	margin-top: 20px;
+	margin-top: 10px;
+	margin-bottom: 4px;
 	padding-bottom: 12px;
 	font-size: 48px;
 	font-family: 'Times New Roman', serif;
 }
 h2{
-	margin-top: 30px;
+	margin-top: 0px;
 	padding-bottom: 6px;
 	font-size: 28px;
 	font-family: 'Times New Roman', serif;
@@ -61,6 +72,13 @@ h3{
 	font-size: 24px;
 	font-family: 'Times New Roman', serif;
 	border-bottom: 2px dotted #847d7e;
+}
+h4{
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 6px;
+	font-size: 20px;
+	font-family: 'Times New Roman', serif;
 }
 p{
 	margin-top: 12px;

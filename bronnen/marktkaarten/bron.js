@@ -1,5 +1,6 @@
 $(document).ready(function() {
     refreshMap();
+    showBron();
 });
 
 
@@ -83,6 +84,10 @@ function refreshMap(){
 
 function getColor(props) {
     return '#9b289c';
+}
+
+function showBron() {
+    $('#main').load('bronnen/marktkaarten/over.php');
 }
 
 function getSize(d) {

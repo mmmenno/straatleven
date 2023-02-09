@@ -18,17 +18,17 @@
   
   	<script src="https://unpkg.com/leaflet@1.1.0/dist/leaflet.js" integrity="sha512-mNqn2Wg7tSToJhvHcqfzLMU6J4mkOImSPTxVZAdo+lcPlk+GhZmYgACEe0x35K7YzW1zJ7XyJV/TT1MrdXvMcA==" crossorigin=""></script>
 
-	<link rel="stylesheet" href="_assets/css/styles.css" />
+	<link rel="stylesheet" href="/_assets/css/styles.css" />
 
 	<script async defer data-domain="rotterdamspubliek.nl" src="https://plausible.io/js/plausible.js"></script>
 
 	
 </head>
 
-<div class="container-fluid">
-	<div class="row" id="topbar">
+<div class="container-fluid" id="topbar">
+	<div class="row">
 		<div class="col-md-6">
-			<a href="/">Straatlevens</a> / een Amsterdam Time Machine 
+			<a href="/">Straatleven</a> / een Amsterdam Time Machine 
 		</div>
 		<div class="col-md-6" id="navbar">
 			<a href="/personen/">personen</a> | 

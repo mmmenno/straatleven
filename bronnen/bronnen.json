@@ -1,0 +1,41 @@
+[
+	{
+		"id": "marktkaarten",
+		"name": "Marktkaarten",
+		"description": "Marktkaarten zijn kaarten (in totaal ca. 16.450) in het archief van de Dienst Marktwezen met gegevens van kooplieden met een vaste standplaats op een markt. De marktkaarten vormen een schaduwbestand op de vergunningen die aan de kooplieden werden uitgegeven.",
+		"more-info": "https://archief.amsterdam/uitleg/indexen/48-marktkaarten-1922-1954",
+		"organisation": "Stadsarchief Amsterdam",
+		"data-search": "De index op de Marktkaarten is op de raadpleegomgeving van het Stadsarchief te doorzoeken.",
+		"data-search-link": "https://archief.amsterdam/indexen/persons",
+		"data-download": "De data is deels (vanwege privacy zijn personen die nog in leven kunnen zijn niet opgenomen) beschikbaar als oai-pmh onder een CC0 licentie.",
+		"data-download-link": "https://opendata.picturae.com/dataset/ams_a2a_32f387e4-889c-34ee-2e36-92269b60e3c2",
+		"data-api": "De data is voor deze applicatie tijdelijk toegankelijk gemaakt via de sparql endpoint van het IISG. Dit betreft nu alleen marktkooplieden die in de Jodenbreestraat of Nieuwe Amstelstraat woonden. Personen die nog in leven kunnen zijn zijn niet opgenomen. Op termijn wil het Stadsarchief de marktkaarten via een eigen sparql endpoint aan gaan bieden.",
+		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
+	},
+	{
+		"id": "diamantbewerkersbond",
+		"name": "Leden Diamantbewerkersbond",
+		"description": "De Algemene Nederlandse Diamantbewerkersbond (ANDB), opgericht in 1894, is de eerste moderne vakbond van Nederland. De ledenkaarten van de bond zijn gedigitaliseerd, getranscribeerd en toegankelijk gemaakt.",
+		"more-info": "https://hdl.handle.net/10622/ARCH00210",
+		"organisation": "IISG",
+		"data-search": "De gegevens kunnen bekeken worden op de projectwebsite diamantbewerkers.nl.",
+		"data-search-link": "https://diamantbewerkers.nl/nl",
+		"data-download": "De data is beschikbaar, onder een CC-BY-SA licentie, als csv (onder 'Assets') en als rdf (onder 'Graphs').",
+		"data-download-link": "https://druid.datalegend.net/andb/ANDB-ADB-all",
+		"data-api": "Het IISG heeft de data bevraagbaar gemaakt via de sparql endpoint van het IISG. Zowel de raadpleegomgeving diamantbewerkers.nl als de applicatie Straatleven query'en op dit endpoint.",
+		"data-api-link": "https://druid.datalegend.net/andb/ANDB-ADB-all/sparql/default"
+	},
+	{
+		"id": "adresboek-1907",
+		"name": "Adresboek 1907",
+		"description": "Adresboeken (vergelijkbaar met de latere Gouden Gids) werden met grote regelmaat, soms jaarlijks, uitgegeven. De scans van die Adresboeken zijn bij het Stadsarchief te bekijken. De ocr-data is in een UvA CREATE project zoveel mogelijk geschoond en verbonden met o.a. adressen.",
+		"more-info": "https://gitlab.com/uvacreate/amsterdam-time-machine/amsterdam-address-books",
+		"organisation": "UvA CREATE / Stadsarchief",
+		"data-search": "Via een kaart zijn de gegevens te bekijken op straat en beroep.",
+		"data-search-link": "https://addressbooks.amsterdamtimemachine.nl/",
+		"data-download": "De data van zowel het Adresboek 1907 als de adresboeken uit 1905, 1909 en 1910 is beschikbaar - onder een CC-BY licentie - als csv en als sqldumps.",
+		"data-download-link": "https://gitlab.com/uvacreate/amsterdam-time-machine/amsterdam-address-books",
+		"data-api": "Er is een api die geojson levert op vragen naar beroep, HISCO code of straat. In de link hieronder is de URI van de Jodenbreestraat meegegeven. Deze api wordt ook door Straatleven gebruikt.",
+		"data-api-link": "https://addressbooks.amsterdamtimemachine.nl/geojson.php?q=https://adamlink.nl/geo/street/jodenbreestraat/2158"
+	}
+]

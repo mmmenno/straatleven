@@ -1,5 +1,6 @@
 $(document).ready(function() {
     refreshMap();
+    showBron();
 });
 
 
@@ -80,6 +81,10 @@ function refreshMap(){
 
 function getColor(props) {
     return '#a50026';
+}
+
+function showBron() {
+    $('#main').load('bronnen/adresboek-1907/over.php');
 }
 
 function getSize(d) {

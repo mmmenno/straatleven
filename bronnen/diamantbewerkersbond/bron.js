@@ -1,5 +1,6 @@
 $(document).ready(function() {
     refreshMap();
+    showBron();
 });
 
 
@@ -84,6 +85,12 @@ function refreshMap(){
 function getColor(props) {
     return '#a50026';
 }
+
+function showBron() {
+    $('#main').load('bronnen/diamantbewerkersbond/over.php');
+}
+
+
 
 function getSize(d) {
     return  d > 20 ? 20 :

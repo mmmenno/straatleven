@@ -5,7 +5,7 @@
 <div class="container-fluid" id="footer">
 	<div class="row">
 		<div class="col-md-4">
-			<a href="/">Straatlevens</a><br />
+			<a href="/">Straatleven</a><br />
 			een Amsterdam Time Machine 
 		</div>
 		<div class="col-md-4">
