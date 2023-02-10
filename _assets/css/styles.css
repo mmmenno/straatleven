@@ -24,7 +24,7 @@ body{
 	margin-top: 0;
 	background-color: #fff;
 	padding-top: 8px;
-	padding-bottom: 24px;
+	padding-bottom: 100px;
 }
 #subheader{
 	background-color: #ac2336;
@@ -80,6 +80,14 @@ h4{
 	font-size: 20px;
 	font-family: 'Times New Roman', serif;
 }
+h5{
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 6px;
+	font-size: 18px;
+	font-style: italic;
+	font-family: 'Times New Roman', serif;
+}
 p{
 	margin-top: 12px;
 	margin-bottom: 6px;
@@ -116,8 +124,8 @@ a:hover{
 
 #footer{
 	background-color: #646464;
-	margin-top: 50px;
-	padding-top: 50px;
+	margin-top: 12px;
+	padding-top: 32px;
 	padding-bottom: 40px;
 	color: #e9e9e9;
 }
@@ -137,5 +145,8 @@ img{
 }
 button:focus, input:focus, .btn-primary:focus {
 }
-
+#logoos img{
+	width: 80px;
+	margin-right: 16px;
+}
 
