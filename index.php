@@ -69,33 +69,35 @@ if(!isset($_GET['bron'])){
 
 <div class="container-fluid" id="main">
 	<h1>Straatleven</h1>
-	<h2>Bronnen bij adressen in de Jodenbreestraat en de Nieuwe Amstelstraat</h2>
+	<h2>Reis mee door de tijd in de Joodse buurt van Amsterdam. Ontdek meer over het leven in straten als de Jodenbreestraat en de Nieuwe Amstelstraat. Van de 17de tot en met de 20ste eeuw.</h2>
 
 	<div class="row">
 		
 		<div class="col-md-4">
 			<div class="personblock">
-				<h3>Bewoners van het Joods kwartier</h3>
+				<h3>Over de Joodse buurt</h3>
 				
-				<p></p>
+				<p>Amsterdam is al eeuwenlang het centrum van Joods leven in Nederland. De Joodse aanwezigheid in Amsterdam begon rond 1600 toen grotere groepen uit Spaanstalige gebieden en uit Antwerpen een veilig heenkomen zochten. Deze Sefardische Joden werden weliswaar geconfronteerd met een aantal beperkingen (men kon bijvoorbeeld geen lid van de gilden worden) maar later vond er een wettelijke gelijkstelling en emancipatie van de Joodse bevolking plaats. Joden hadden een bijnaam voor de stad: Mokum, het Jiddisje woord voor plaats. Voor de Tweede Wereldoorlog woonden in Amsterdam ongeveer 79.000 joden met hun eigen typische beroepen, verenigingen, gewoonten, markten en hun eigen buurten. Het Joodse leven gaf de hoofdstad een heel eigen gezicht. Joden leefden aanvankelijk geïsoleerd maar in de 19e en 20e eeuw traden ze steeds meer naar buiten. Na de oorlog ging het joods leven op veel kleinere schaal verder.</p>
 				
-			</div>
-		</div>
-
-		<div class="col-md-4">
-			<div class="personblock">
-				<h3>Verschillende bronnen verbonden</h3>
-				
-				<p></p>
+				<p>Lees meer over de geschiedenis van de Joodse buurt op de website van het <a href="https://jck.nl/nl/longread/geschiedenis-van-de-joden-amsterdam">Joods Cultureel Kwartier</a>.</p>
 				
 			</div>
 		</div>
 
 		<div class="col-md-4">
 			<div class="personblock">
-				<h3>Een prototype voor de hele stad</h3>
+				<h3>Bronnen verbonden</h3>
 				
-				<p></p>
+				<p>Dit project is het resultaat van een samenwerking van het Joods Museum en de Amsterdam Time Machine (ATM), een onderzoeksprogramma van de Universiteit van Amsterdam (UvA). De organisaties hebben de handen ineengeslagen om databronnen uit verschillende archieven en collecties over Joods Amsterdam te verbinden. We zijn in deze samenwerking gestart met twee straten: de Jodenbreestraat en de Nieuwe Amstelstraat. Er wordt hierbij gebruikt gemaakt van een eigen dataverzameling van het Joods Museum (opgeslagen in de database nodegoat), de geo-infrastructuur van <a href="https://adamlink.nl/">Adamlink</a>, de ervaring uit eerdere pilots met de ATM en datasets van het Stadsarchief Amsterdam, het Niod en het IISG. Zie voor een overzicht van de datasets de sectie ‘databronnen’ op deze site. Met deze samenwerking doen we ervaring op met het visualiseren van databronnen vanuit verschillende instellingen, voor een publiek van geïnteresseerde Amsterdammers en bezoekers aan het Joods Cultureel Kwartier (JCK). Deze ervaring zal enerzijds benut worden om de mogelijkheden van het combineren van linked data bronnen in de praktijk te demonstreren en anderzijds om te werken aan een publieksapplicatie voor bewoners en bezoekers van het Joods Cultureel Kwartier. Ook wordt nadrukkelijk gekeken naar de mogelijkheden om dit type applicatie op te schalen naar grotere delen van Amsterdam. Voor deze pilot is aansluiting gezocht bij het co-creatie project <a href="https://niw.nl/licht-op-vlooienburg/">Licht op Vlooienburg</a> van de UvA (hoogleraar Bart Wallet en projectleider Julia van der Krieke), het JCK, Aanpak Binnenstad en het Stadsarchief Amsterdam. Dit project stelt zich ten doel vijf eeuwen Joodse aanwezigheid op een creatieve wijze zichtbaarder te maken.</p>
+				
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="personblock">
+				<h3>Een tijdmachine voor Amsterdam</h3>
+				
+				<p>De Amsterdam Time Machine (ATM) is een open onderzoeksinfrastructuur over de geschiedenis van Amsterdam. In deze ‘Google Earth van het verleden’ zullen gebruikers uiteindelijk in staat zijn terug in de tijd te reizen en door de stad te navigeren op het niveau van buurten, straten en huizen. De ATM is onderdeel van de Europese Time Machine organisatie – een alliantie van bijna 600 organisaties uit 40 landen. Onder leiding van de UvA wordt samengewerkt met partners uit het veld van onderzoek, erfgoed, de creatieve industrie en met maatschappelijke organisaties. Het doel is alle digitale historische data van de stad en haar inwoners met elkaar te verbinden en te koppelen aan historische kaarten en 3D modellen. Met deze pilot willen we onderzoeken hoe dit type website opgeschaald kan worden naar een groter deel van Amsterdam. Tevens creëren we een ‘proeftuin’ waar medewerkers van instellingen kunnen zien hoe hun data er uitziet, op de kaart, en hoe de data te verbinden is. De ATM wil met haar projecten bijdragen aan de toekomstige inrichting van de stad onder het motto ‘Understanding the past to help shape the future’.</p>
 				
 			</div>
 		</div>
@@ -103,36 +105,7 @@ if(!isset($_GET['bron'])){
 
 	</div>
 
-	<div class="row">
-		
-		<div class="col-md-4">
-			<div class="personblock">
-				<h3>Persoonsreconstructies op basis van vermeldingen</h3>
-				
-				<p></p>
-				
-			</div>
-		</div>
-
-		<div class="col-md-4">
-			<div class="personblock">
-				<h3>Aanpak</h3>
-				
-				<p></p>
-				
-			</div>
-		</div>
-
-		<div class="col-md-4">
-			<div class="personblock">
-				<h3>Museale en geroofde objecten</h3>
-				
-				<p></p>
-				
-			</div>
-		</div>
-
-	</div>
+	
 
 </div>
 

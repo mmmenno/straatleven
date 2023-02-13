@@ -33,7 +33,7 @@
 		<div class="col-md-6" id="navbar">
 			<a href="/personen/">personen</a> | 
 			<a href="/objecten/">objecten</a> | 
-			<a href="/over/">over deze site</a> | 
+			<a href="/over.php">over deze site</a> | 
 			<a href="/bronnen/">bronnen</a>
 		</div>
 	</div>
