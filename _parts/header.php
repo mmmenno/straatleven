@@ -20,7 +20,7 @@
 
 	<link rel="stylesheet" href="/_assets/css/styles.css" />
 
-	<script async defer data-domain="rotterdamspubliek.nl" src="https://plausible.io/js/plausible.js"></script>
+	<script defer data-domain="streetlife.amsterdamtimemachine.nl" src="https://plausible.io/js/script.js"></script>
 
 	
 </head>

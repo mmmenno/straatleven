@@ -69,7 +69,7 @@ if(!isset($_GET['bron'])){
 
 <div class="container-fluid" id="main">
 	<h1>Straatleven</h1>
-	<h2>Reis mee door de tijd in de Joodse buurt van Amsterdam. Ontdek meer over het leven in straten als de Jodenbreestraat en de Nieuwe Amstelstraat. Van de 17de tot en met de 20ste eeuw.</h2>
+	<h2>Vier eeuwen bronnen over bewoners van de Joodse buurt van Amsterdam. Per straat te benaderen, per pand te bekijken. Disclaimer: deze applicatie is nog volop in ontwikkeling!</h2>
 
 	<div class="row">
 		
