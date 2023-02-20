@@ -28,6 +28,10 @@ body{
 }
 #subheader{
 	background-color: #ac2336;
+	background-image: url(/_assets/img/straatleven-bg.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	padding-top: 160px;
 	padding-bottom: 24px;
 	margin-bottom: 0;
 	color: #fff;

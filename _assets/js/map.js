@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
-    createMap();
+    var urlparams = get_query();
+    if ( typeof urlparams['straat'] !== 'undefined') {
+        createMap();
+    }
 
     document.body.onkeydown = function(e){
         if(e.keyCode == 32){
@@ -18,6 +21,8 @@ $(document).ready(function() {
 });
 
 function createMap(){
+
+    $('#subheader').css("padding-top","0");
     center = [52.370216, 4.895168];
     zoomlevel = 14;
     

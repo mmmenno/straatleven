@@ -29,8 +29,8 @@ if(!isset($_GET['bron'])){
 				</select>
 				
 				<select name="bron" class="form-select" style="width:30%; display: inline;">
-					<option value="jhm-personen" <?php if(isset($bron) && $bron == "jhm-personen"){ echo "selected"; } ?>>
-						todo: personen JM
+					<option value="jm" <?php if(isset($bron) && $bron == "jm"){ echo "selected"; } ?>>
+						persoonsreconstructies JM
 					</option>
 					<option value="diamantbewerkersbond" <?php if(isset($bron) && $bron == "diamantbewerkersbond"){ echo "selected"; } ?>>
 						diamantbewerkersbond

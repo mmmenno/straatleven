@@ -37,5 +37,18 @@
 		"data-download-link": "https://gitlab.com/uvacreate/amsterdam-time-machine/amsterdam-address-books",
 		"data-api": "Er is een api die geojson levert op vragen naar beroep, HISCO code of straat. In de link hieronder is de URI van de Jodenbreestraat meegegeven. Deze api wordt ook door Straatleven gebruikt.",
 		"data-api-link": "https://addressbooks.amsterdamtimemachine.nl/geojson.php?q=https://adamlink.nl/geo/street/jodenbreestraat/2158"
+	},
+	{
+		"id": "jm",
+		"name": "Persoonsreconstructies Joods Museum",
+		"description": "Het Joods Museum reconstrueert, op basis van primaire bronnen, wie waar in de Joodse buurt woonde in de meer dan vier eeuwen van haar bestaan. Deze dataset wordt onder andere gebruikt om objecten in de collectie van het Joods Museum mee te kunnen verbinden.",
+		"more-info": "",
+		"organisation": "JM / JCK",
+		"data-search": "De gegevens zijn nog niet te bekijken op andere plekken dan deze site. Er wordt aan gewerkt om de data ook op de JCK website te laten zien.",
+		"data-search-link": "",
+		"data-download": "De gegevens zijn nog niet te downloaden, anders dan via de api.",
+		"data-download-link": "",
+		"data-api": "Via de generieke api op Nodegoat, waar de data in bijgehouden wordt, zijn gegevens op te vragen. De link hieronder laat zien hoe je dat met een Adamlink adres URI doet.",
+		"data-api-link": "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/A103313"
 	}
 ]
