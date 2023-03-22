@@ -44,8 +44,8 @@ if(!isset($_GET['bron'])){
 					<option value="woningkaarten" <?php if(isset($bron) && $bron == "woningkaarten"){ echo "selected"; } ?>>
 						todo: woningkaarten
 					</option>
-					<option value="register-1864-1874" <?php if(isset($bron) && $bron == "register-1864-1874"){ echo "selected"; } ?>>
-						todo: register 1864-1874
+					<option value="bevolkingsregister-1864-1874" <?php if(isset($bron) && $bron == "bevolkingsregister-1864-1874"){ echo "selected"; } ?>>
+						bevolkingsregister 1864-1874
 					</option>
 					<option value="err-inboedels" <?php if(isset($bron) && $bron == "err-inboedels"){ echo "selected"; } ?>>
 						todo: ERR inboedels

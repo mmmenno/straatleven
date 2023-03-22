@@ -3,9 +3,42 @@
 
 include("../../_infra/functions.php");
 
+
+/*
+$opts = [
+    "http" => [
+        "method" => "GET",
+        "header" => "Authorization: Bearer rz7Z7GGZuf6KGKL8rMSzImIvNalyX6uGWmAbcWBTrGa6IcWGLa\r\n"
+    ]
+];
+
+$context = stream_context_create($opts);
+
+$json = file_get_contents($url, false, $context);
+
+*/
+
 $url = "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
 
-$json = file_get_contents($url);
+$token = "rz7Z7GGZuf6KGKL8rMSzImIvNalyX6uGWmAbcWBTrGa6IcWGLa";
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+$headers = [
+    'Content-Type: application/json',
+    'Authorization: Bearer ' . $token
+];
+curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+$json = curl_exec($ch);
+$info = curl_getinfo($ch);
+curl_close($ch);
+
+echo $json;
+
+echo $info;
 
 $data = json_decode($json,true);
 

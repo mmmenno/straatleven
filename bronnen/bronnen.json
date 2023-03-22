@@ -13,6 +13,19 @@
 		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
 	},
 	{
+		"id": "bevolkingsregister-1864-1874",
+		"name": "Bevolkingsregister 1864-1874",
+		"description": "In het bevolkingsregister zijn (als het goed is) alle bewoners te vinden.",
+		"more-info": "",
+		"organisation": "Stadsarchief Amsterdam",
+		"data-search": "De index op het Bevolkingsregister 1864-1874 is op de raadpleegomgeving van het Stadsarchief deels te doorzoeken.",
+		"data-search-link": "https://archief.amsterdam/indexen/persons",
+		"data-download": "Er spelen vanzelfsprekend geen privacy issues, maar de dataset moet nog gepubliceerd worden.",
+		"data-download-link": "",
+		"data-api": "De data is voor deze applicatie tijdelijk toegankelijk gemaakt via de sparql endpoint van het IISG. Dit betreft nu alleen geregistreerden die in de Jodenbreestraat of Nieuwe Amstelstraat woonden. Op termijn wil het Stadsarchief de bevolkingsregisters via een eigen sparql endpoint aan gaan bieden.",
+		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
+	},
+	{
 		"id": "diamantbewerkersbond",
 		"name": "Leden Diamantbewerkersbond",
 		"description": "De Algemene Nederlandse Diamantbewerkersbond (ANDB), opgericht in 1894, is de eerste moderne vakbond van Nederland. De ledenkaarten van de bond zijn gedigitaliseerd, getranscribeerd en toegankelijk gemaakt.",

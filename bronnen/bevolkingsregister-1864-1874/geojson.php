@@ -14,7 +14,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX histograph: <http://rdf.histograph.io/>
 SELECT ?adres (MIN(?wkt) AS ?wkt) WHERE {
-  VALUES ?bron { <https://adamlink.nl/geo/source/S1> <https://adamlink.nl/geo/source/S2> }
+  VALUES ?bron { <https://adamlink.nl/geo/source/S3> <https://adamlink.nl/geo/source/S4> }
   ?adres histograph:liesIn <" . $_GET['street'] . "> .
   ?adres roar:documentedIn ?bron .
   ?adres rdfs:label ?label .
@@ -50,7 +50,7 @@ PREFIX saa: <https://data.archief.amsterdam/ontology#>
 PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 SELECT ?aladr (GROUP_CONCAT(DISTINCT ?adrstr;SEPARATOR=\",\") as ?labels) (count(DISTINCT ?po) as ?residents) WHERE {
-  ?deed saa:isOrWasAlsoIncludedIn <https://ams-migrate.memorix.io/resources/records/7a89c50a-63cc-083a-e053-b784100a07cb> .
+  ?deed saa:isOrWasAlsoIncludedIn <https://ams-migrate.memorix.io/resources/records/temp-id-bev-register-1864-74> .
   ?deed saa:isAssociatedWithModernAddress ?adr .
   ?adr a saa:Address .
   ?adr dcterms:title ?adrstr .
@@ -58,11 +58,10 @@ SELECT ?aladr (GROUP_CONCAT(DISTINCT ?adrstr;SEPARATOR=\",\") as ?labels) (count
   ?adr owl:sameAs ?aladr .
   ?deed rico:hasOrHadSubject ?po .
 } 
-GROUP BY ?aladr limit 1000
+GROUP BY ?aladr
 ";
 
 //echo $sparql;
-//die;
 $endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
