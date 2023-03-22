@@ -8,7 +8,7 @@ include("../../_infra/functions.php");
 $opts = [
     "http" => [
         "method" => "GET",
-        "header" => "Authorization: Bearer rz7Z7GGZuf6KGKL8rMSzImIvNalyX6uGWmAbcWBTrGa6IcWGLa\r\n"
+        "header" => "Authorization: Bearer \r\n"
     ]
 ];
 
