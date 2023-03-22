@@ -20,7 +20,7 @@ $json = file_get_contents($url, false, $context);
 
 $url = "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
 
-$token = "rz7Z7GGZuf6KGKL8rMSzImIvNalyX6uGWmAbcWBTrGa6IcWGLa";
+$token = "";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
