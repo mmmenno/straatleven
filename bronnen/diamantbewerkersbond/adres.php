@@ -4,6 +4,57 @@
 include("../../_infra/functions.php");
 
 
+// first get adamlink adres info
+$sparql = "
+PREFIX roar: <https://w3id.org/roar#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX histograph: <http://rdf.histograph.io/>
+SELECT ?adres ?bron ?bronlabel ?label (MIN(?wkt) AS ?wkt) WHERE {
+  values ?lp { ";
+
+  $sparql .= "<https://adamlink.nl/geo/lp/" . $_GET['lp'] . "> ";
+
+  $sparql .= " }
+  values ?bron {
+  	<https://adamlink.nl/geo/source/S1>
+  	<https://adamlink.nl/geo/source/S2>
+  	<https://adamlink.nl/geo/source/S3>
+  }
+  ?adres roar:documentedIn ?bron .
+  ?bron rdfs:label ?bronlabel .
+  ?adres rdfs:label ?label .
+  ?adres schema:geoContains ?lp .
+  ?lp geo:asWKT ?wkt
+}
+GROUP BY ?adres ?bron ?bronlabel ?label
+";
+
+//echo $sparql;
+$endpoint = 'https://data.create.humanities.uva.nl/sparql';
+
+$json = getSparqlResults($endpoint,$sparql);
+$data = json_decode($json,true);
+
+//print_r($data);
+
+$adrslabels = array();
+$adreslinks = array();
+foreach ($data['results']['bindings'] as $key => $value) {
+	$adrslabels[] = $value['label']['value'];
+	if(preg_match("/[0-9]{4}/",$value['bronlabel']['value'],$found)){
+		$bronlabel = $found[0];
+	}else{
+		$bronlabel = "1876";
+	}
+	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $bronlabel . ')</a>';
+}
+$adrslabels = array_unique($adrslabels);
+
+
+
 $sparql = "
 PREFIX schema: <https://schema.org/>
 PREFIX adbandb: <https://iisg.amsterdam/vocab/adb-andb/>
@@ -98,7 +149,8 @@ foreach ($data['results']['bindings'] as $row) {
 
 ?>
 
-<h2>Diamantbewerkers op dit adres</h2>
+<h2>Diamantbewerkers op <?= implode(", ",$adrslabels) ?></h2>
+<div class="smalladdress"><?= implode(" | ",$adreslinks) ?></div>
 
 <div class="row">
 

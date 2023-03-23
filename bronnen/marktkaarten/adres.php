@@ -6,6 +6,46 @@ include("../../_infra/functions.php");
 $addresses = json_decode($_GET['adressen'],true);
 
 $sparql = "
+PREFIX roar: <https://w3id.org/roar#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX histograph: <http://rdf.histograph.io/>
+SELECT ?adres ?bron ?bronlabel ?label (MIN(?wkt) AS ?wkt) WHERE {
+  VALUES ?adres { ";
+
+  foreach($addresses as $adr){
+  	$sparql .= "<" . $adr . "> ";
+  }
+
+  $sparql .= " }
+  ?adres roar:documentedIn ?bron .
+  ?bron rdfs:label ?bronlabel .
+  ?adres rdfs:label ?label .
+  ?adres schema:geoContains ?lp .
+  ?lp geo:asWKT ?wkt
+}
+GROUP BY ?adres ?bron ?bronlabel ?label
+";
+
+//echo $sparql;
+$endpoint = 'https://data.create.humanities.uva.nl/sparql';
+
+$json = getSparqlResults($endpoint,$sparql);
+$data = json_decode($json,true);
+
+//print_r($data);
+
+$adreslabels = array();
+$adreslinks = array();
+foreach ($data['results']['bindings'] as $key => $value) {
+	$adreslabels[] = $value['label']['value'];
+	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $value['bronlabel']['value'] . ')</a>';
+}
+$adreslabels = array_unique($adreslabels);
+
+$sparql = "
 PREFIX schema: <http://schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -87,8 +127,8 @@ foreach ($data['results']['bindings'] as $row) {
 
 ?>
 
-<h2>Marktkaarthouders op dit adres</h2>
-
+<h2>Marktkaarthouders op <?= implode(", ",$adreslabels) ?></h2>
+<div class="smalladdress"><?= implode(" | ",$adreslinks) ?></div>
 <div class="row">
 
 <?php
