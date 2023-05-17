@@ -1,1 +1,2 @@
-*/sparqldata/*.json
+*/sparqldata/*.json*
+*/settings.php
