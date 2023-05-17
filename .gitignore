@@ -1,3 +1,3 @@
 */sparqldata/*.json
-_infra/sparqldata/*
+_infra/sparqldata/*.json
 bronnen/jm/settings.php
