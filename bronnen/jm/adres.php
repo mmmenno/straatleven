@@ -3,6 +3,13 @@
 
 include("../../_infra/functions.php");
 
+if(!file_exists("settings.php")){
+	die('de jck api kan op dit moment niet bereikt worden');
+}
+
+include("settings.php"); // only for token
+
+
 
 /*
 $opts = [
@@ -18,17 +25,20 @@ $json = file_get_contents($url, false, $context);
 
 */
 
-$url = "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
+//$oldurl = "https://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
+//$oldurl = "https://jck.nodegoat.io/project/2752/data/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
+$url = "https://nodegoat.io/project/2752/data/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/" . $_GET['adres'];
 
-$token = "";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_USERAGENT,'straatlevens');
 $headers = [
-    'Content-Type: application/json',
-    'Authorization: Bearer ' . $token
+    'Accept: application/json',
+	'Authorization: Bearer ' . $token
 ];
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
@@ -36,15 +46,18 @@ $json = curl_exec($ch);
 $info = curl_getinfo($ch);
 curl_close($ch);
 
-echo $json;
+//header('Content-Type: application/json; charset=utf-8');
+//echo($json);
+//die;
 
-echo $info;
+//print_r($info);
 
 $data = json_decode($json,true);
 
 //print_r($data);
 
 $persons = array();
+$huisnaam = "Persoonsreconstructies JM op dit adres";
 
 foreach($data['data']['objects'] as $adres){
 
@@ -53,6 +66,10 @@ foreach($data['data']['objects'] as $adres){
 		if(!preg_match("/" . $_GET['adres'] . "/",$adres['object_definitions'][45197]['object_definition_value'])){
 			continue;
 		}
+	}
+
+	if(isset($adres['object']['object_name'])){
+		$huisnaam = str_replace("NAS","Nieuwe Amstelstraat",$adres['object']['object_name']);
 	}
 
 
@@ -144,7 +161,9 @@ function urlstolinks($str){
 
 ?>
 
-<h2>Persoonsreconstructies JM op dit adres</h2>
+<h2><?= $huisnaam ?></h2>
+
+Met dit huis verbonden personen:
 
 <div class="row">
 

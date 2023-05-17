@@ -1,0 +1,6 @@
+<?php
+
+$token = "token hier";
+
+
+?>

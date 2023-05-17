@@ -13,6 +13,19 @@
 		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
 	},
 	{
+		"id": "woningkaarten",
+		"name": "Woningkaarten",
+		"description": "Op de meer dan 700.000 woningkaarten werd van 1924 tot 1989 bijgehouden wie op welk adres woonde.",
+		"more-info": "https://archief.amsterdam/uitleg/indexen/25-woningkaarten-1924-1989",
+		"organisation": "Stadsarchief Amsterdam",
+		"data-search": "De index op de Woningkaarten is op de raadpleegomgeving van het Stadsarchief te doorzoeken. Alleen de adressen zijn geïndexeerd, op persoonsnamen zoeken is dus niet mogelijk.",
+		"data-search-link": "https://archief.amsterdam/indexen/persons",
+		"data-download": "De data is beschikbaar als oai-pmh onder een CC0 licentie.",
+		"data-download-link": "https://opendata.picturae.com/dataset/ams_a2a_af7bf4bc-7684-631c-a9ef-f75c8b604325",
+		"data-api": "De data is voor deze applicatie tijdelijk toegankelijk gemaakt via de sparql endpoint van het IISG. Dit betreft nu kaarten van woningen in de Jodenbreestraat of Nieuwe Amstelstraat. Op termijn wil het Stadsarchief de woningkaarten via een eigen sparql endpoint aan gaan bieden.",
+		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
+	},
+	{
 		"id": "bevolkingsregister-1864-1874",
 		"name": "Bevolkingsregister 1864-1874",
 		"description": "In het bevolkingsregister zijn (als het goed is) alle bewoners te vinden.",

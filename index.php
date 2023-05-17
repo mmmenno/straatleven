@@ -42,7 +42,7 @@ if(!isset($_GET['bron'])){
 						adresboek 1907
 					</option>
 					<option value="woningkaarten" <?php if(isset($bron) && $bron == "woningkaarten"){ echo "selected"; } ?>>
-						todo: woningkaarten
+						woningkaarten
 					</option>
 					<option value="bevolkingsregister-1864-1874" <?php if(isset($bron) && $bron == "bevolkingsregister-1864-1874"){ echo "selected"; } ?>>
 						bevolkingsregister 1864-1874
