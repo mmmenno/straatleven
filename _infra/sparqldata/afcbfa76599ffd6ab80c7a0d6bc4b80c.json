@@ -12,11 +12,11 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023184"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023198"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 33 I,Nieuwe Amstelstraat 33 huis"
+          "value": "Nieuwe Amstelstraat 11,Nieuwe Amstelstraat 11 II"
         },
         "residents": {
           "type": "literal",
@@ -27,30 +27,60 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023225"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023200"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 26,Nieuwe Amstelstraat 26 ,Nieuwe Amstelstraat 26 A I,Nieuwe Amstelstraat 26 II"
+          "value": "Nieuwe Amstelstraat 9 II"
         },
         "residents": {
           "type": "literal",
-          "value": "5",
+          "value": "1",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023223"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023205"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 ,Nieuwe Amstelstraat 22 I,Nieuwe Amstelstraat 22 huis"
+          "value": "Nieuwe Amstelstraat 5 "
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023181"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 37 ,Nieuwe Amstelstraat 37 II,Nieuwe Amstelstraat 37 boven,Nieuwe Amstelstraat 37 huis"
         },
         "residents": {
           "type": "literal",
           "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023215"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 6,Nieuwe Amstelstraat 6 II,Nieuwe Amstelstraat 6 III,Nieuwe Amstelstraat 6 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "9",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
@@ -72,15 +102,15 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023217"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023224"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 10 ,Nieuwe Amstelstraat 10 I,Nieuwe Amstelstraat 10 boven,Nieuwe Amstelstraat 10 bv"
+          "value": "Nieuwe Amstelstraat 24 ,Nieuwe Amstelstraat 24 II,Nieuwe Amstelstraat 24 huis"
         },
         "residents": {
           "type": "literal",
-          "value": "5",
+          "value": "3",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
@@ -117,11 +147,116 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023205"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023186"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 5 "
+          "value": "Nieuwe Amstelstraat 29,Nieuwe Amstelstraat 29 ,Nieuwe Amstelstraat 29 I,Nieuwe Amstelstraat 29 I p.a. Sturkop,Nieuwe Amstelstraat 29 II,Nieuwe Amstelstraat 29 III,Nieuwe Amstelstraat 29 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "16",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023225"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 26,Nieuwe Amstelstraat 26 ,Nieuwe Amstelstraat 26 A I,Nieuwe Amstelstraat 26 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023190"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 25 I,Nieuwe Amstelstraat 25 II,Nieuwe Amstelstraat 25 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023218"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 12,Nieuwe Amstelstraat 12 ,Nieuwe Amstelstraat 12 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023194"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 17 ,Nieuwe Amstelstraat 17 I,Nieuwe Amstelstraat 17 huis,Nieuwe Amstelstraat 17 p/a Asser"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "6",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023220"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 16,Nieuwe Amstelstraat 16 ,Nieuwe Amstelstraat 16 II,Nieuwe Amstelstraat 16 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023196"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 13,Nieuwe Amstelstraat 13 ,Nieuwe Amstelstraat 13 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "4",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1096177"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 32 II"
         },
         "residents": {
           "type": "literal",
@@ -147,171 +282,6 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023215"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 6,Nieuwe Amstelstraat 6 II,Nieuwe Amstelstraat 6 III,Nieuwe Amstelstraat 6 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "9",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023222"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 20 I,Nieuwe Amstelstraat 20 II"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "4",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023218"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 12,Nieuwe Amstelstraat 12 ,Nieuwe Amstelstraat 12 II"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "4",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023190"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 25 I,Nieuwe Amstelstraat 25 II,Nieuwe Amstelstraat 25 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "6",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023186"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 29,Nieuwe Amstelstraat 29 ,Nieuwe Amstelstraat 29 I,Nieuwe Amstelstraat 29 I p.a. Sturkop,Nieuwe Amstelstraat 29 II,Nieuwe Amstelstraat 29 III,Nieuwe Amstelstraat 29 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "16",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023187"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 27,Nieuwe Amstelstraat 27 II,Nieuwe Amstelstraat 27 III,Nieuwe Amstelstraat 27 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "6",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023227"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 28 II"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "1",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023224"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 24 ,Nieuwe Amstelstraat 24 II,Nieuwe Amstelstraat 24 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "3",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023200"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 9 II"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "1",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023220"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 16,Nieuwe Amstelstraat 16 ,Nieuwe Amstelstraat 16 II,Nieuwe Amstelstraat 16 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "5",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023194"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 17 ,Nieuwe Amstelstraat 17 I,Nieuwe Amstelstraat 17 huis,Nieuwe Amstelstraat 17 p/a Asser"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "6",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
           "value": "https://iisg.amsterdam/resource/andb/lp/1023185"
         },
         "labels": {
@@ -321,6 +291,21 @@
         "residents": {
           "type": "literal",
           "value": "14",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023184"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 33 I,Nieuwe Amstelstraat 33 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "2",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
@@ -342,6 +327,66 @@
       {
         "lp": {
           "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023179"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 43 ,Nieuwe Amstelstraat 43 II,Nieuwe Amstelstraat 43 boven"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "3",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023223"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 22,Nieuwe Amstelstraat 22 ,Nieuwe Amstelstraat 22 I,Nieuwe Amstelstraat 22 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "7",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023227"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 28 II"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "1",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023217"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Nieuwe Amstelstraat 10 ,Nieuwe Amstelstraat 10 I,Nieuwe Amstelstraat 10 boven,Nieuwe Amstelstraat 10 bv"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
           "value": "https://iisg.amsterdam/resource/andb/lp/1023180"
         },
         "labels": {
@@ -357,15 +402,15 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1096177"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023187"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 32 II"
+          "value": "Nieuwe Amstelstraat 27,Nieuwe Amstelstraat 27 II,Nieuwe Amstelstraat 27 III,Nieuwe Amstelstraat 27 huis"
         },
         "residents": {
           "type": "literal",
-          "value": "1",
+          "value": "6",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
@@ -387,60 +432,15 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023179"
+          "value": "https://iisg.amsterdam/resource/andb/lp/1023222"
         },
         "labels": {
           "type": "literal",
-          "value": "Nieuwe Amstelstraat 43 ,Nieuwe Amstelstraat 43 II,Nieuwe Amstelstraat 43 boven"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "3",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023198"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 11,Nieuwe Amstelstraat 11 II"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "2",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023196"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 13,Nieuwe Amstelstraat 13 ,Nieuwe Amstelstraat 13 II"
+          "value": "Nieuwe Amstelstraat 20 I,Nieuwe Amstelstraat 20 II"
         },
         "residents": {
           "type": "literal",
           "value": "4",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1023181"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Nieuwe Amstelstraat 37 ,Nieuwe Amstelstraat 37 II,Nieuwe Amstelstraat 37 boven,Nieuwe Amstelstraat 37 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "7",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       }

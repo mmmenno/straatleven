@@ -1,5 +1,18 @@
 [
 	{
+		"id": "beeldbank",
+		"name": "Beeldbank Stadsarchief",
+		"description": "In de Beeldbank vindt u een selectie van het beeldmateriaal van het Stadsarchief. Bijna 500.000 foto’s, prenten, tekeningen, prentbriefkaarten, affiches, bouwtekeningen en kaarten zijn in de Beeldbank te vinden.",
+		"more-info": "https://archief.amsterdam/uitleg/beeldbank",
+		"organisation": "Stadsarchief Amsterdam",
+		"data-search": "De beeldbank is binnen de raadpleegomgeving van het Stadsarchief te doorzoeken.",
+		"data-search-link": "https://archief.amsterdam/beeldbank/",
+		"data-download": "",
+		"data-download-link": "",
+		"data-api": "De data is voor deze applicatie tijdelijk toegankelijk gemaakt via de sparql endpoint van het Amsterdam Time Machine project.",
+		"data-api-link": "https://lod.uba.uva.nl/ATM/ATM-KG"
+	},
+	{
 		"id": "marktkaarten",
 		"name": "Marktkaarten",
 		"description": "Marktkaarten zijn kaarten (in totaal ca. 16.450) in het archief van de Dienst Marktwezen met gegevens van kooplieden met een vaste standplaats op een markt. De marktkaarten vormen een schaduwbestand op de vergunningen die aan de kooplieden werden uitgegeven.",
@@ -76,5 +89,18 @@
 		"data-download-link": "",
 		"data-api": "Via de generieke api op Nodegoat, waar de data in bijgehouden wordt, zijn gegevens op te vragen. De link hieronder laat zien hoe je dat met een Adamlink adres URI doet.",
 		"data-api-link": "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/A103313"
+	},
+	{
+		"id": "err-inboedels",
+		"name": "Inboedels Einsatzstab Reichsleiter Rosenberg",
+		"description": "In het archief van de roofinstelling Einsatzstab Reichsleiter Rosenberg (ERR) is tot in detail opgetekend hoe tienduizenden inboedels zijn geroofd van Joodse inwoners van Nederland.",
+		"more-info": "",
+		"organisation": "NIOD",
+		"data-search": "De gegevens, inclusief de scans, zijn nog niet te bekijken op de site van het NIOD zelf, maar naar verwachting gebeurt dit binnenkort.",
+		"data-search-link": "",
+		"data-download": "De gegevens zijn nog niet te downloaden",
+		"data-download-link": "",
+		"data-api": "De data is voor deze applicatie tijdelijk toegankelijk gemaakt via de sparql endpoint van het IISG. Dit betreft nu alleen geregistreerden die in de Jodenbreestraat of Nieuwe Amstelstraat woonden.",
+		"data-api-link": "https://druid.datalegend.net/menno/Streetlife"
 	}
 ]

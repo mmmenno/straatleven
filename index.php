@@ -48,7 +48,10 @@ if(!isset($_GET['bron'])){
 						bevolkingsregister 1864-1874
 					</option>
 					<option value="err-inboedels" <?php if(isset($bron) && $bron == "err-inboedels"){ echo "selected"; } ?>>
-						todo: ERR inboedels
+						ERR inboedels
+					</option>
+					<option value="beeldbank" <?php if(isset($bron) && $bron == "beeldbank"){ echo "selected"; } ?>>
+						beeldbank Stadsarchief
 					</option>
 				</select>
 
