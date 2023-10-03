@@ -46,6 +46,7 @@ $data = json_decode($json,true);
 
 $thisaddress = array();
 $otheraddresses = array();
+$lpids = array();
 
 foreach ($data['results']['bindings'] as $row) {
 
@@ -64,9 +65,12 @@ foreach ($data['results']['bindings'] as $row) {
       "year" => substr($row['anderadresbegin']['value'],0,4)
     );
   }
+
+  $lpid = str_replace("https://adamlink.nl/geo/lp/","",$row['lp']['value']);
+  $lpids[$lpid] = $lpid;
 }
 
-//print_r($data);
+//print_r($lpids);
 
 
 
@@ -249,14 +253,14 @@ $data = json_decode($json,true);
 foreach ($data['results']['bindings'] as $row) {
 
   $names = "";
-  if(isset($row['persons']['value'])){
+  if(strlen($row['persons']['value'])){
     $names = " (" . $row['persons']['value'] . ")";
   }
 
   $found = false;
-  preg_match("/ [0-9]+ ?\.?(.+)$/",$row['adrstr']['value'],$found);
-  if($found && isset( $floorlevellabels[$found[1]] )){
-    $floors[$floorlevellabels[$found[1]]][] = array(
+  preg_match("/ [0-9]+( |\.)(.+)$/",$row['adrstr']['value'],$found);
+  if($found && isset( $floorlevellabels[$found[2]] )){
+    $floors[$floorlevellabels[$found[2]]][] = array(
       "link" => "../bronnen/err-inboedels/document.php?doc=" . $row['errdoc']['value'],
       "label" => $row['adrstr']['value'] . $names,
       "bron" => "ERR",
@@ -268,6 +272,102 @@ foreach ($data['results']['bindings'] as $row) {
       "label" => $row['adrstr']['value'] . $names,
       "bron" => "ERR",
       "periode" => "1942-1943"
+    );
+  }
+
+}
+
+
+// Diamantwerkers, en kijken of we daar floorlevels van kunnen maken
+$sparql = "
+PREFIX schema: <https://schema.org/>
+PREFIX adbandb: <https://iisg.amsterdam/vocab/adb-andb/>
+PREFIX andb: <https://iisg.amsterdam/id/andb/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT DISTINCT ?resident ?residentlabel 
+  (GROUP_CONCAT(DISTINCT ?adreslabel;SEPARATOR=\",\") as ?labels) ?begindate ?birth 
+  (MIN(?membersince) AS ?membersince) 
+  (GROUP_CONCAT(DISTINCT ?occlabel;SEPARATOR=\",\") AS ?occlabels) 
+  WHERE {
+  VALUES ?lp { ";
+  foreach($lpids as $k => $v){
+    $sparql .= "<https://iisg.amsterdam/resource/andb/lp/" . $v . "> ";
+  }
+  $sparql .= " }
+  ?adres owl:sameAs ?lp .
+  ?adres rdfs:label ?adreslabel .
+  ?adres adbandb:houseNumber ?nr .
+  optional{
+    ?adres adbandb:houseNumberAddition ?add .
+  }
+  ?residency schema:address ?adres .
+  optional{
+    ?residency adbandb:duration ?duration .
+    ?duration <http://www.w3.org/2006/time#hasBeginning> ?begin .
+    ?begin <http://www.w3.org/2006/time#inXSDDate> ?begindate .
+  }
+  ?resident adbandb:inhabits ?residency .
+  ?resident rdfs:label ?residentlabel .
+  optional{
+    ?resident schema:birthDate ?birth .
+  }
+  optional{
+    ?resident <http://www.w3.org/ns/org#hasMembership> ?membership .
+    ?membership <http://www.w3.org/ns/org#memberDuring> ?membershipduration .
+    ?membershipduration <http://www.w3.org/2006/time#hasBeginning> ?memberbegin .
+    ?memberbegin <http://www.w3.org/2006/time#inXSDDate> ?membersince .
+    ?membership <http://www.w3.org/ns/org#organization> ?org .
+    ?org adbandb:occupation ?occ .
+    ?occ rdfs:label ?occlabel .
+  }
+} group by ?resident ?residentlabel ?begindate ?birth
+LIMIT 5000
+";
+
+//echo $sparql;
+$endpoint = 'https://api.druid.datalegend.net/datasets/andb/ANDB-ADB-all/services/default/sparql';
+
+$json = getSparqlResults($endpoint,$sparql);
+$data = json_decode($json,true);
+
+//print_r($data);
+
+foreach ($data['results']['bindings'] as $row) {
+
+
+  $name = "";
+  if(isset($row['residentlabel']['value'])){
+    $name = "" . $row['residentlabel']['value'] . " | ";
+  }
+
+  $dates = array();
+  if(isset($row['birth'])){
+    $dates[] = "geboren " . substr($row['birth']['value'],0,4);
+  }
+  if(isset($row['membersince'])){
+    $dates[] = "lid sinds " . substr($row['membersince']['value'],0,4);
+  }
+
+  $adreslabels = explode(",",$row['labels']['value']); // snap niet waarom query meer dan 1 adres zou opleveren
+
+  $found = false;
+  preg_match("/ [0-9]+( |\.)(.+)$/",trim($adreslabels[0]),$found);
+
+  if($found && isset( $floorlevellabels[$found[2]] )){
+    $floors[$floorlevellabels[$found[2]]][] = array(
+      "link" => "https://diamantbewerkers.nl/en/detail?id=" . $row['resident']['value'],
+      "label" => $name . $adreslabels[0],
+      "bron" => "ANDB",
+      "periode" => implode(", ",$dates)
+    );
+  }else{
+    $floors['onbekend of hele huis'][] = array(
+      "link" => "https://diamantbewerkers.nl/en/detail?id=" . $row['resident']['value'],
+      "label" => $name . $adreslabels[0],
+      "bron" => "ANDB",
+      "periode" => implode(", ",$dates)
     );
   }
 
@@ -325,7 +425,8 @@ ksort($floors);
             <h3><?= $floorlabel ?></h3>
 
             <?php foreach ($floordata as $obs) { ?>
-              <a target="_blank" href="<?= $obs['link'] ?>"><?= $obs['label'] ?></a> | <?= $obs['bron'] ?> | <?= $obs['periode'] ?><br />
+              <a target="_blank" href="<?= $obs['link'] ?>"><?= $obs['label'] ?></a><br />
+              <div class="evensmaller" style="padding-bottom: 8px;"><?= $obs['bron'] ?> | <?= $obs['periode'] ?></div>
             <?php } ?>
 
             

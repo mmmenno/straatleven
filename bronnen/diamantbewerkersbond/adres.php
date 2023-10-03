@@ -49,7 +49,7 @@ foreach ($data['results']['bindings'] as $key => $value) {
 	}else{
 		$bronlabel = "1876";
 	}
-	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $bronlabel . ')</a>';
+	$adreslinks[] = '<a href="adres/?adres=' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $bronlabel . ')</a>';
 }
 $adrslabels = array_unique($adrslabels);
 

@@ -155,7 +155,7 @@ button:focus, input:focus, .btn-primary:focus {
 	margin-right: 16px;
 }
 .smalladdress{
-	margin-top: -14px;
+	margin-top: 14px;
 	color: #aaaaaa;
 }
 .smalladdress a{
