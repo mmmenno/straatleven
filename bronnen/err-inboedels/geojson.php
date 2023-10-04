@@ -4,103 +4,36 @@
 include("../../_infra/functions.php");
 
 
-// we halen de coordinaten van de adressen uit adamlink data, kunnen we zien of het klopt
-
 $sparql = "
-PREFIX roar: <https://w3id.org/roar#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX bag: <http://bag.basisregistraties.overheid.nl/def/bag#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX histograph: <http://rdf.histograph.io/>
-SELECT ?adres (MIN(?wkt) AS ?wkt) WHERE {
-  VALUES ?bron { <https://adamlink.nl/geo/source/S1> <https://adamlink.nl/geo/source/S2> }
-  ?adres histograph:liesIn <" . $_GET['street'] . "> .
-  ?adres roar:documentedIn ?bron .
-  ?adres rdfs:label ?label .
+PREFIX roar: <https://w3id.org/roar#>
+SELECT ?adres ?huisnr ?huisletter (COUNT(DISTINCT(?loc)) AS ?nr) (MIN(?wkt) AS ?wkt) WHERE {
+  ?loc roar:documentedIn ?doc .
+  ?doc schema:isPartOf <https://data.niod.nl/temp-archiefid/093a> .
+  ?loc schema:address ?adres .
+  ?adres <http://rdf.histograph.io/liesIn> <" . $_GET['street'] . "> .
+  ?adres bag:huisnummer ?huisnr .
+  optional {
+    ?adres bag:huisletter ?huisletter .
+  }
   ?adres schema:geoContains ?lp .
-  ?lp geo:asWKT ?wkt
-}
-GROUP BY ?adres
-";
-
-//echo $sparql;
-$endpoint = 'https://data.create.humanities.uva.nl/sparql';
-
-$json = getSparqlResults($endpoint,$sparql);
-$data = json_decode($json,true);
-
-//print_r($data);
-
-$adressen = array();
-foreach($data['results']['bindings'] as $rec){
-	$adres = str_replace("https://adamlink.nl/geo/address/","",$rec['adres']['value']);
-	$adressen[$adres] = $rec['wkt']['value'];
-}
-
-//print_r($adressen);
-
-
-
-$sparql = "
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX saa: <https://data.archief.amsterdam/ontology#>
-PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-SELECT ?aladr (GROUP_CONCAT(DISTINCT ?adrstr;SEPARATOR=\",\") as ?labels) (count(DISTINCT ?po) as ?residents) WHERE {
-  ?deed saa:isOrWasAlsoIncludedIn <https://ams-migrate.memorix.io/resources/records/7a89c50a-63cc-083a-e053-b784100a07cb> .
-  ?deed saa:isAssociatedWithModernAddress ?adr .
-  ?adr a saa:Address .
-  ?adr dcterms:title ?adrstr .
-  ?adr saa:street <" . $_GET['street'] . "> .
-  ?adr owl:sameAs ?aladr .
-  ?deed rico:hasOrHadSubject ?po .
+  ?lp geo:asWKT ?wkt .
+  ?loc rdfs:label ?loclabel .
 } 
-GROUP BY ?aladr limit 1000
+GROUP BY ?adres ?huisnr ?huisletter
+LIMIT 1000
 ";
 
 //echo $sparql;
 //die;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
-
-//print_r($data);
-
-$combined = array(); // er zitten 1909 en 1943 adressen in, en we willen dat bij elkaar
-
-foreach ($data['results']['bindings'] as $key => $value) {
-
-  $adr = str_replace("https://adamlink.nl/geo/address/","",$value['aladr']['value']);
-
-  if(!isset($adressen[$adr])){
-    continue;
-  }
-
-  $wkt = $adressen[$adr];
-  if(!isset($combined[$wkt])){
-    $combined[$wkt] = array(
-      "cnt" => $value['residents']['value'],
-      "labels" => explode(",",$value['labels']['value']),
-      "adressen" => array("https://adamlink.nl/geo/address/" . $adr)
-    );
-  }else{
-    $combined[$wkt]['cnt'] = $combined[$wkt]['cnt'] + $value['residents']['value'];
-    
-    $combined[$wkt]['labels'][] = $value['labels']['value'];
-    $combined[$wkt]['labels'] = array_unique($combined[$wkt]['labels']);
-
-    $combined[$wkt]['adressen'][] = "https://adamlink.nl/geo/address/" . $adr;
-    $combined[$wkt]['adressen'] = array_unique($combined[$wkt]['adressen']);
-
-  }
-}
-
-//print_r($combined);
-//die;
 
 
 $colprops = array(
@@ -143,22 +76,28 @@ $context = json_decode($contextjson);
 
 $fc = array("@context"=>$context,"type"=>"FeatureCollection", "properties"=>$colprops, "features"=>array());
 
-foreach ($combined as $key => $value) {
+foreach ($data['results']['bindings'] as $key => $value) {
 
-	//print_r($value);
+  $adr = str_replace("https://adamlink.nl/geo/address/","",$value['adres']['value']);
+
+  $huisletter = "";
+	if(isset($value['huisletter']['value'])){
+    $huisletter = $value['huisletter']['value'];
+  }
 	
 	$adres = array("type"=>"Feature");
 
-	$wkt = $key;
+	$wkt = $value['wkt']['value'];
 	$ll = explode(" ",str_replace(array("POINT(",")"),"",$wkt));
 	$adres['geometry'] = array(
 		"type" => "Point",
 		"coordinates" => array($ll[0],$ll[1])
 	);
 	$props = array(
-		"cnt" => $value['cnt'],
-		"labels" => $value['labels'],
-		"adressen" => $value['adressen']
+		"cnt" => $value['nr']['value'],
+		"huisnr" => $value['huisnr']['value'],
+    "huisletter" => $huisletter,
+    "adressen" => array($value['adres']['value'])
 	);
 	$adres['properties'] = $props;
 	$fc['features'][] = $adres;

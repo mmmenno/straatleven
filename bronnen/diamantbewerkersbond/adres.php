@@ -150,7 +150,7 @@ foreach ($data['results']['bindings'] as $row) {
 ?>
 
 <h2>Diamantbewerkers op <?= implode(", ",$adrslabels) ?></h2>
-<div class="smalladdress"><?= implode(" | ",$adreslinks) ?></div>
+<div class="smalladdress"><?= implode(" | ",$adreslinks) ?> [klik om gegevens uit verschillende bronnen bij dit adres te bekijken]</div>
 
 <div class="row">
 

@@ -41,7 +41,12 @@ $adreslabels = array();
 $adreslinks = array();
 foreach ($data['results']['bindings'] as $key => $value) {
 	$adreslabels[] = $value['label']['value'];
-	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $value['bronlabel']['value'] . ')</a>';
+	if(preg_match("/[0-9]{4}/",$value['bronlabel']['value'],$found)){
+		$bronlabel = $found[0];
+	}else{
+		$bronlabel = "1876";
+	}
+	$adreslinks[] = '<a href="adres/?adres=' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $bronlabel . ')</a>';
 }
 $adreslabels = array_unique($adreslabels);
 
@@ -123,7 +128,7 @@ foreach ($data['results']['bindings'] as $row) {
 ?>
 
 <h2>Geregistreerden op <?= implode(", ",$adreslabels) ?></h2>
-<div class="smalladdress"><?= implode(" | ",$adreslinks) ?></div>
+<div class="smalladdress"><?= implode(" | ",$adreslinks) ?> [klik om gegevens uit verschillende bronnen bij dit adres te bekijken]</div>
 
 <div class="row">
 

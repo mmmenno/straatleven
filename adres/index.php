@@ -200,7 +200,7 @@ foreach ($data['results']['bindings'] as $row) {
   if(isset($row['floorconcept']['value'])){
     $floors[$row['floorlabel']['value']][] = array(
       "link" => $row['jmp']['value'],
-      "label" => $row['jmplabel']['value'],
+      "label" => $row['jmplabel']['value'] . " " . $row['adrstr']['value'],
       "bron" => "Joods Monument",
       "periode" => "1940-1945"
     );
@@ -258,7 +258,7 @@ foreach ($data['results']['bindings'] as $row) {
   }
 
   $found = false;
-  preg_match("/ [0-9]+( |\.)(.+)$/",$row['adrstr']['value'],$found);
+  preg_match("/.+[0-9]+( |\.)(.+)$/",$row['adrstr']['value'],$found);
   if($found && isset( $floorlevellabels[$found[2]] )){
     $floors[$floorlevellabels[$found[2]]][] = array(
       "link" => "../bronnen/err-inboedels/document.php?doc=" . $row['errdoc']['value'],

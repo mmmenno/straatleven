@@ -26,10 +26,11 @@ function refreshMap(){
             lps = L.geoJson(null, {
                 pointToLayer: function (feature, latlng) { 
 
-                    var markertitle = feature.properties.cnt + ' marktkaarthouders in'
+                    var markertitle = feature.properties.cnt + ' documenten'
                     if(feature.properties.cnt == 1){
-                        var markertitle = feature.properties.cnt + ' marktkaarthouder'
+                        var markertitle = feature.properties.cnt + ' document'
                     }
+                    markertitle += ' op nummer ' + feature.properties.huisnr + feature.properties.huisletter
                     $.each(feature.properties.labels,function(index,value){
                         markertitle += "<br />" + value;
 

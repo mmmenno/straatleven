@@ -5,14 +5,14 @@ include("../../_infra/functions.php");
 
 $addresses = json_decode($_GET['adressen'],true);
 
-$sparql = "
-PREFIX roar: <https://w3id.org/roar#>
+$sparql = "PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
-PREFIX schema: <https://schema.org/>
+PREFIX bag: <http://bag.basisregistraties.overheid.nl/def/bag#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX histograph: <http://rdf.histograph.io/>
-SELECT ?adres ?bron ?bronlabel ?label (MIN(?wkt) AS ?wkt) WHERE {
+PREFIX schema: <https://schema.org/>
+PREFIX roar: <https://w3id.org/roar#>
+SELECT ?adres ?loc ?doc ?doctype ?adreslabel ?loclabel ?roomslabel ?rooms ?inventory (GROUP_CONCAT(?pname;separator=\" | \") AS ?pnames) WHERE {
   VALUES ?adres { ";
 
   foreach($addresses as $adr){
@@ -20,136 +20,108 @@ SELECT ?adres ?bron ?bronlabel ?label (MIN(?wkt) AS ?wkt) WHERE {
   }
 
   $sparql .= " }
-  ?adres roar:documentedIn ?bron .
-  ?bron rdfs:label ?bronlabel .
-  ?adres rdfs:label ?label .
-  ?adres schema:geoContains ?lp .
-  ?lp geo:asWKT ?wkt
-}
-GROUP BY ?adres ?bron ?bronlabel ?label
-";
-
-//echo $sparql;
-$endpoint = 'https://data.create.humanities.uva.nl/sparql';
-
-$json = getSparqlResults($endpoint,$sparql);
-$data = json_decode($json,true);
-
-//print_r($data);
-
-$adreslabels = array();
-$adreslinks = array();
-foreach ($data['results']['bindings'] as $key => $value) {
-	$adreslabels[] = $value['label']['value'];
-	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $value['bronlabel']['value'] . ')</a>';
-}
-$adreslabels = array_unique($adreslabels);
-
-$sparql = "
-PREFIX schema: <http://schema.org/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX saa: <https://data.archief.amsterdam/ontology#>
-PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX pnv: <https://w3id.org/pnv#>
-SELECT ?deed ?givenName ?baseSurname ?surnamePrefix ?birthDate ?vergunningdatum ?standplaats WHERE {
-  VALUES ?aladr { ";
-
-  foreach($addresses as $adr){
-  	$sparql .= "<" . $adr . "> ";
-  }
-
-  $sparql .= " }
-  ?adr owl:sameAs ?aladr .
-  ?deed saa:isAssociatedWithModernAddress ?adr .
-  ?adr dcterms:title ?adrstr .
-  ?deed rico:hasOrHadSubject/saa:relatedPersonObservation ?po .
+  ?loc schema:address ?adres .
+  ?loc roar:documentedIn ?doc .
+  ?doc schema:isPartOf <https://data.niod.nl/temp-archiefid/093a> .
+  ?doc schema:additionalType ?doctype .
+  ?adres rdfs:label ?adreslabel .
+  ?loc rdfs:label ?loclabel .
   optional{
-  	?deed saa:hasSpecification/saa:specificationTextualValue ?standplaats .
+  	?loc schema:numberOfRooms/rdfs:label ?roomslabel .
   }
   optional{
-    ?deed rico:normalizedDateValue ?vergunningdatum .
+  	?loc schema:numberOfRooms/rdf:value ?rooms .
   }
   optional{
-  	?po pnv:hasName/pnv:givenName ?givenName .
-  }
-  ?po pnv:hasName/pnv:baseSurname ?baseSurname .
-  optional{
-  	?po pnv:hasName/pnv:surnamePrefix ?surnamePrefix .
+  	?loc schema:description ?inventory .
   }
   optional{
-  	?po schema:birthDate ?birthDate .
+  	?p roar:hasLocation/rdf:value ?loc .
+  	?p rdfs:label ?pname .
   }
-  
 } 
+GROUP BY  ?adres ?loc ?doc ?doctype ?adreslabel ?loclabel ?roomslabel ?rooms ?inventory 
+LIMIT 1000
 ";
 
 //echo $sparql;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
 
 
-$people = array();
+$docs = array();
 
 foreach ($data['results']['bindings'] as $row) {
 
-	$person = array("deed" => str_replace("https://ams-migrate.memorix.io/resources/records/","https://archief.amsterdam/indexen/deeds/",$row['deed']['value']));
-
-	if(!isset($row['surnamePrefix']['value'])){
-		$row['surnamePrefix']['value'] = "";
+	if(!isset($row['pnames']['value'])){
+		$row['pnames']['value'] = "";
 	}
-	if(!isset($row['givenName']['value'])){
-		$row['givenName']['value'] = "";
+	if(!isset($row['inventory']['value'])){
+		$row['inventory']['value'] = "";
 	}
-	if(!isset($row['vergunningdatum']['value'])){
-		$row['vergunningdatum']['value'] = "";
+	if(!isset($row['rooms']['value'])){
+		$row['rooms']['value'] = "";
 	}
-	if(!isset($row['standplaats']['value'])){
-		$row['standplaats']['value'] = "";
+	if(!isset($row['roomslabel']['value'])){
+		$row['roomslabel']['value'] = "";
 	}
 	
 	if(!isset($row['birthDate']['value'])){
 		$row['birthDate']['value'] = "";
 	}
 	
-	$person['name'] = $row['givenName']['value'] . " " . trim($row['surnamePrefix']['value'] . " " . $row['baseSurname']['value']);
+	$doc['pnames'] = $row['pnames']['value'];
 
-	$person['birth'] = $row['birthDate']['value'];
-	$person['standplaats'] = $row['standplaats']['value'];
-	$person['vergunningdatum'] = $row['vergunningdatum']['value'];
+	$doc['doc'] = $row['doc']['value'];
+	$doc['doctype'] = $row['doctype']['value'];
+	$doc['loclabel'] = $row['loclabel']['value'];
+	$doc['rooms'] = $row['rooms']['value'];
+	$doc['roomslabel'] = $row['roomslabel']['value'];
+	$doc['adreslabel'] = $row['adreslabel']['value'];
+	$doc['adres'] = $row['adres']['value'];
+	$doc['inventory'] = $row['inventory']['value'];
 	
-	$people[] = $person;
+	$docs[] = $doc;
 }
+
+//print_r($docs);
 
 ?>
 
-<h2>Marktkaarthouders op <?= implode(", ",$adreslabels) ?></h2>
-<div class="smalladdress"><?= implode(" | ",$adreslinks) ?></div>
+<h2>ERR documenten op <?= $docs[0]['adreslabel'] ?></h2>
+<div class="smalladdress">
+	<a href="adres/?adres=<?= $docs[0]['adres'] ?>"><?= $docs[0]['adreslabel'] ?></a> [klik om gegevens uit verschillende bronnen bij dit adres te bekijken]
+</div>
 <div class="row">
 
 <?php
 
-foreach ($people as $uri => $person) {
+foreach ($docs as $doc) {
 
 
 
 	?>
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="personblock">
-				<h3><?= $person['name'] ?></h3>
+				<h3><?= $doc['loclabel'] ?></h3>
 
-				geboren op <?= $person['birth'] ?><br /><br />
-				standplaats vergunning: <?= $person['standplaats'] ?><br />
-				datum vergunning: <?= $person['vergunningdatum'] ?><br /><br />
+				een <a target="_blank" href="bronnen/err-inboedels/document.php?doc=<?= $doc['doc'] ?>"><?= $doc['doctype'] ?></a><br /><br />
+				
+				<strong>personen:</strong>
+        <?= $doc['pnames'] ?><br />
+				
+				<strong>aantal kamers:</strong>
+        <?= $doc['rooms'] ?><br />
 
-				<a target="_blank" href="<?= $person['deed'] ?>">
-					bekijk bij het Stadsarchief
-				</a><br /><br />
+        <strong>beschrijving:</strong>
+        <?= $doc['roomslabel'] ?><br /><br />
 
+        <strong>inboedel:</strong><br />
+        <?= $doc['inventory'] ?>
+
+				
 				
 			</div>
 
