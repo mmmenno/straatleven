@@ -16,9 +16,46 @@ $(document).ready(function() {
             tileLayer.setOpacity(1)
         }
     };
+
+    $("#layerlinks a").on( "click", function(e) {
+        e.preventDefault();
+        layerid = $(this).attr("id");
+        //console.log(layerid);
+
+        removeLayers();
+
+        if(layerid == "layer1876"){
+            tileLayer = layer1876.addTo(map);
+        }
+        if(layerid == "layer1909"){
+            tileLayer = layer1909.addTo(map);
+        }
+        if(layerid == "layer1943"){
+            tileLayer = layer1943.addTo(map);
+        }
+        if(layerid == "layer1985"){
+            tileLayer = layer1985.addTo(map);
+        }
+        
+    });
     
 
 });
+
+function removeLayers(){
+    if(map.hasLayer(layer1876)){
+        map.removeLayer(layer1876);
+    }
+    if(map.hasLayer(layer1909)){
+        map.removeLayer(layer1909);
+    }
+    if(map.hasLayer(layer1943)){
+        map.removeLayer(layer1943);
+    }
+    if(map.hasLayer(layer1985)){
+        map.removeLayer(layer1985);
+    }
+}
 
 function createMap(){
 
@@ -54,12 +91,31 @@ function createMap(){
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-
-    tileLayer = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1909/{z}/{x}/{y}.png', {
+    layer1876 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/loman/{z}/{x}/{y}.jpeg', {
         attribution: 'map provided by HicSuntLeones',
         maxZoom: 19,
         minZoom:15
-    }).addTo(map);
+    });
+
+    layer1909 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1909/{z}/{x}/{y}.png', {
+        attribution: 'map provided by HicSuntLeones',
+        maxZoom: 19,
+        minZoom:15
+    });
+
+    layer1943 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1943/{z}/{x}/{y}.png', {
+        attribution: 'map provided by HicSuntLeones',
+        maxZoom: 19,
+        minZoom:15
+    });
+
+    layer1985 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1985/{z}/{x}/{y}.png', {
+        attribution: 'map provided by HicSuntLeones',
+        maxZoom: 19,
+        minZoom:15
+    });
+
+    tileLayer = layer1943.addTo(map);
 
 }
 
@@ -116,7 +172,7 @@ function get_query(){
               map.fitBounds(lps.getBounds());
 
               var geojsonprops = jsonData['properties'];
-              console.log(geojsonprops);
+              //console.log(geojsonprops);
 
               var infotext = "<br />searched for:<br />";
               infotext += "<strong>" + geojsonprops['searchedfor'] + "</strong><br /><br />";

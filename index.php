@@ -50,6 +50,9 @@ if(!isset($_GET['bron'])){
 					<option value="err-inboedels" <?php if(isset($bron) && $bron == "err-inboedels"){ echo "selected"; } ?>>
 						ERR inboedels
 					</option>
+					<option value="joods-monument" <?php if(isset($bron) && $bron == "joods-monument"){ echo "selected"; } ?>>
+						Joods Monument
+					</option>
 					<option value="beeldbank" <?php if(isset($bron) && $bron == "beeldbank"){ echo "selected"; } ?>>
 						beeldbank Stadsarchief
 					</option>
@@ -67,6 +70,14 @@ if(!isset($_GET['bron'])){
 
 <?php if(isset($bron)){ ?>
 	<div id="map"></div>
+	<div id="layerlinks">
+		toon historische kaart van  
+		<a id="layer1876" href="">1876</a> | 
+		<a id="layer1909" href="">1909</a> | 
+		<a id="layer1943" href="">1943</a> | 
+		<a id="layer1985" href="">1985</a>
+		en klik op [spatiebalk] om onderliggende huidige kaart te tonen
+	</div>
 <?php } ?>
 
 

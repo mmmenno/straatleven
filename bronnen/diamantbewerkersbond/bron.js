@@ -1,6 +1,9 @@
 $(document).ready(function() {
     refreshMap();
     showBron();
+
+    removeLayers();
+    tileLayer = layer1909.addTo(map);
 });
 
 

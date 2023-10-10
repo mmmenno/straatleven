@@ -3,7 +3,7 @@ $(document).ready(function() {
     showBron();
 
     removeLayers();
-    tileLayer = layer1909.addTo(map);
+    tileLayer = layer1943.addTo(map);
 });
 
 
@@ -12,11 +12,11 @@ $(document).ready(function() {
 function refreshMap(){
 
     var urlparams = get_query();
-    console.log(urlparams['straat'])
+    //console.log(urlparams['straat'])
 
     $.ajax({
         type: 'GET',
-        url: 'bronnen/marktkaarten/geojson.php',
+        url: 'bronnen/joods-monument/geojson.php',
         dataType: 'json',
         data: {
             street: urlparams['straat']
@@ -29,10 +29,11 @@ function refreshMap(){
             lps = L.geoJson(null, {
                 pointToLayer: function (feature, latlng) { 
 
-                    var markertitle = feature.properties.cnt + ' marktkaarthouders in'
+                    var markertitle = feature.properties.cnt + ' personen'
                     if(feature.properties.cnt == 1){
-                        var markertitle = feature.properties.cnt + ' marktkaarthouder'
+                        var markertitle = feature.properties.cnt + ' persoon'
                     }
+                    markertitle += ' op nummer ' + feature.properties.huisnr + feature.properties.huisletter
                     $.each(feature.properties.labels,function(index,value){
                         markertitle += "<br />" + value;
 
@@ -40,7 +41,7 @@ function refreshMap(){
 
                     return new L.CircleMarker(latlng, {
                         color: "#fff",
-                        fillColor: "#9b289c",
+                        fillColor: "#442c39",
                         radius:8,
                         weight: 0,
                         opacity: 0.7,
@@ -68,7 +69,7 @@ function refreshMap(){
             map.fitBounds(lps.getBounds());
 
             var geojsonprops = jsonData['properties'];
-            console.log(geojsonprops);
+            //console.log(geojsonprops);
 
             var infotext = "<br />searched for:<br />";
             infotext += "<strong>" + geojsonprops['searchedfor'] + "</strong><br /><br />";
@@ -86,11 +87,11 @@ function refreshMap(){
 }
 
 function getColor(props) {
-    return '#9b289c';
+    return '#442c39';
 }
 
 function showBron() {
-    $('#main').load('bronnen/marktkaarten/over.php');
+    $('#main').load('bronnen/joods-monument/over.php');
 }
 
 function getSize(d) {
@@ -131,7 +132,7 @@ function whenClicked(){
     });
 
     var props = $(this)[0].feature.properties;
-    $("#main").load('bronnen/marktkaarten/adres.php?adressen=' + JSON.stringify(props['adressen']));
+    $("#main").load('bronnen/joods-monument/adres.php?adressen=' + JSON.stringify(props['adressen']));
 
 
 }

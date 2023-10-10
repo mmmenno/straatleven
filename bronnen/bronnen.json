@@ -91,6 +91,19 @@
 		"data-api-link": "http://jck.nodegoat.io/data/project/2752/type/10340/scope/1/object/?search=https://adamlink.nl/geo/address/A103313"
 	},
 	{
+		"id": "joods-monument",
+		"name": "Joods Monument Amsterdam",
+		"description": "Het Joods Monument is een online monument voor de meer dan  104.000 mensen die in Nederland als Joden werden vervolgd en de Holocaust niet overleefden. Op deze site worden daarvan de 63.164 mensen met Amsterdamse adressen getoond.",
+		"more-info": "https://www.joodsmonument.nl/nl/page/571160/over-het-joods-monument",
+		"organisation": "Joods Cultureel Kwartier",
+		"data-search": "De gegevens zijn op het Joods Monument te doorzoeken.",
+		"data-search-link": "https://www.joodsmonument.nl/nl/search?advancedsearch=true",
+		"data-download": "De Amsterdamse adressen zijn opgenomen in de Amsterdam Time Machine Knowledgegraph",
+		"data-download-link": "https://lod.uba.uva.nl/ATM/ATM-KG",
+		"data-api": "De gegevens zijn voor deze applicatie (tijdelijk) toegankelijk gemaakt via de sparql endpoint van de Amsterdam Time Machine. Dit betreft nu alleen documenten die Amsterdamse adressen betreffen.",
+		"data-api-link": "https://lod.uba.uva.nl/ATM/ATM-KG/sparql/ATM-KG"
+	},
+	{
 		"id": "err-inboedels",
 		"name": "Inboedels Einsatzstab Reichsleiter Rosenberg",
 		"description": "In het archief van de roofinstelling Einsatzstab Reichsleiter Rosenberg (ERR) is tot in detail opgetekend hoe tienduizenden inboedels zijn geroofd van Joodse inwoners van Nederland. Het archief is bij het NIOD te vinden als archief 093a.",
@@ -98,8 +111,8 @@
 		"organisation": "NIOD",
 		"data-search": "De gegevens, inclusief de scans, zijn nog niet te bekijken op de site van het NIOD zelf, maar naar verwachting gebeurt dit binnenkort.<br /><br />De gegevens betreffende Amsterdamse adressen zijn op deze site te bekijken. Persoonsnamen zijn hierbij alleen opgenomen als via een match met Joods Monument privacyschendingen uitgesloten konden worden.",
 		"data-search-link": "",
-		"data-download": "De gegevens zijn als set downloadbaar. Via de Amsterdam Time Machine sparql endpoint zijn wel queryresultaten down te loaden.",
-		"data-download-link": "https://lod.uba.uva.nl/ATM/ATM-KG/sparql/ATM-KG",
+		"data-download": "De gegevens zijn als rdf te downloaden. Via de Amsterdam Time Machine sparql endpoint zijn ook queryresultaten down te loaden.",
+		"data-download-link": "https://lod.uba.uva.nl/ATM/ATM-KG",
 		"data-api": "De gegevens zijn voor deze applicatie (tijdelijk) toegankelijk gemaakt via de sparql endpoint van de Amsterdam Time Machine. Dit betreft nu alleen documenten die Amsterdamse adressen betreffen.",
 		"data-api-link": "https://lod.uba.uva.nl/ATM/ATM-KG/sparql/ATM-KG"
 	}

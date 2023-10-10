@@ -1,6 +1,9 @@
 $(document).ready(function() {
     refreshMap();
     showBron();
+
+    removeLayers();
+    tileLayer = layer1985.addTo(map);
 });
 
 
@@ -37,7 +40,7 @@ function refreshMap(){
 
                     return new L.CircleMarker(latlng, {
                         color: "#fff",
-                        fillColor: "#9b289c",
+                        fillColor: "#ff612a",
                         radius:8,
                         weight: 0,
                         opacity: 0.7,
@@ -83,7 +86,7 @@ function refreshMap(){
 }
 
 function getColor(props) {
-    return '#9b289c';
+    return '#ff612a';
 }
 
 function showBron() {

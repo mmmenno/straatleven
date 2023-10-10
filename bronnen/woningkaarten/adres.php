@@ -30,7 +30,7 @@ GROUP BY ?adres ?bron ?bronlabel ?label
 ";
 
 //echo $sparql;
-$endpoint = 'https://data.create.humanities.uva.nl/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
@@ -76,7 +76,7 @@ SELECT ?deed ?adrstr WHERE {
 ";
 
 //echo $sparql;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);

@@ -16,8 +16,6 @@ PREFIX sem: <http://semanticweb.cs.vu.nl/2009/11/sem/>
 PREFIX schema: <https://schema.org/>
 PREFIX roar: <https://w3id.org/roar#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
-PREFIX schemahttp: <http://schema.org/>
-PREFIX schemahttps: <https://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX saa: <https://data.archief.amsterdam/ontology#>
@@ -84,7 +82,7 @@ SELECT * WHERE {
   ?concept skos:related <https://vocab.amsterdamtimemachine.nl/toevoegingen/verdiepingen>
 }";
 
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
@@ -100,7 +98,7 @@ foreach ($data['results']['bindings'] as $row) {
 // Woningkaarten, floorlevels
 $sparql = "
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX schema: <http://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -131,7 +129,7 @@ SELECT ?deed ?adrstr ?floor ?floorconcept ?floorlabel WHERE {
 ";
 
 //echo $sparql;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
@@ -163,8 +161,7 @@ foreach ($data['results']['bindings'] as $row) {
 
 $sparql = "
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX schemahttp: <http://schema.org/>
-PREFIX schemahttps: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX roar: <https://w3id.org/roar#>
@@ -176,11 +173,11 @@ SELECT ?jmloc ?adrstr ?floor ?floorconcept ?floorlabel ?jmp ?jmplabel WHERE {
   }
 
   $sparql .= " }
-  ?jmloc schemahttps:address ?aladr .
+  ?jmloc schema:address ?aladr .
   ?jmloc rdfs:label ?adrstr .
   ?jmloc roar:documentedIn <https://www.joodsmonument.nl/> .
   optional{
-    ?jmloc schemahttps:floorLevel ?floorconcept .
+    ?jmloc schema:floorLevel ?floorconcept .
     ?floorconcept skos:prefLabel ?floorlabel .
   }
   ?jmp roar:hasLocation/rdf:value ?jmloc .
@@ -189,7 +186,7 @@ SELECT ?jmloc ?adrstr ?floor ?floorconcept ?floorlabel ?jmp ?jmplabel WHERE {
 ";
 
 //echo $sparql;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
@@ -219,8 +216,7 @@ foreach ($data['results']['bindings'] as $row) {
 // ERR, en kijken of we daar floorlevels van kunnen maken
 $sparql = "
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-PREFIX schemahttp: <http://schema.org/>
-PREFIX schemahttps: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX roar: <https://w3id.org/roar#>
@@ -232,10 +228,10 @@ SELECT ?errloc ?errdoc ?adrstr (GROUP_CONCAT(?errplabel;separator=\" | \") AS ?p
   }
 
   $sparql .= " }
-  ?errloc schemahttps:address ?aladr .
+  ?errloc schema:address ?aladr .
   ?errloc rdfs:label ?adrstr .
   ?errloc roar:documentedIn ?errdoc .
-  ?errdoc schemahttps:isPartOf <https://data.niod.nl/temp-archiefid/093a>
+  ?errdoc schema:isPartOf <https://data.niod.nl/temp-archiefid/093a>
   optional{
     ?errp roar:hasLocation/rdf:value ?errloc .
     ?errp rdfs:label ?errplabel .
@@ -244,7 +240,7 @@ SELECT ?errloc ?errdoc ?adrstr (GROUP_CONCAT(?errplabel;separator=\" | \") AS ?p
 ";
 
 //echo $sparql;
-$endpoint = 'https://api.druid.datalegend.net/datasets/menno/Streetlife/services/Streetlife/sparql';
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
 
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);

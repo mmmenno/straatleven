@@ -12,21 +12,6 @@
       {
         "lp": {
           "type": "uri",
-          "value": "https://iisg.amsterdam/resource/andb/lp/1022862"
-        },
-        "labels": {
-          "type": "literal",
-          "value": "Jodenbreestraat 55 ,Jodenbreestraat 55 Carels,Jodenbreestraat 55 III,Jodenbreestraat 55 huis"
-        },
-        "residents": {
-          "type": "literal",
-          "value": "5",
-          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
-        }
-      },
-      {
-        "lp": {
-          "type": "uri",
           "value": "https://iisg.amsterdam/resource/andb/lp/1022837"
         },
         "labels": {
@@ -36,6 +21,21 @@
         "residents": {
           "type": "literal",
           "value": "10",
+          "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "lp": {
+          "type": "uri",
+          "value": "https://iisg.amsterdam/resource/andb/lp/1022862"
+        },
+        "labels": {
+          "type": "literal",
+          "value": "Jodenbreestraat 55 ,Jodenbreestraat 55 Carels,Jodenbreestraat 55 III,Jodenbreestraat 55 huis"
+        },
+        "residents": {
+          "type": "literal",
+          "value": "5",
           "datatype": "http://www.w3.org/2001/XMLSchema#integer"
         }
       },
