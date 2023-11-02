@@ -22,10 +22,26 @@ if(!isset($_GET['bron'])){
 			<form method="get" action="/">
 				
 				<select name="straat" class="form-select" style="width:30%; display: inline;">
-					<option value="https://adamlink.nl/geo/street/nieuwe-amstelstraat/3138" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/nieuwe-amstelstraat/3138"){ echo "selected"; } ?>>
-					Nieuwe Amstelstraat</option>
+					<option value="https://adamlink.nl/geo/street/houtgracht/5668" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/houtgracht/5668"){ echo "selected"; } ?>>
+					Houtgracht</option>
+					<option value="https://adamlink.nl/geo/street/houtkopersdwarsstraat/1894" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/houtkopersdwarsstraat/1894"){ echo "selected"; } ?>>
+					Houtkopersdwarsstraat</option>
 					<option value="https://adamlink.nl/geo/street/jodenbreestraat/2158" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/jodenbreestraat/2158"){ echo "selected"; } ?>>
 					Jodenbreestraat</option>
+					<option value="https://adamlink.nl/geo/street/korte-houtstraat/5643" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/korte-houtstraat/5643"){ echo "selected"; } ?>>
+					Korte Houtstraat</option>
+					<option value="https://adamlink.nl/geo/street/lange-houtstraat/6358" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/lange-houtstraat/6358"){ echo "selected"; } ?>>
+					Lange Houtstraat</option>
+					<option value="https://adamlink.nl/geo/street/leprozengracht/5685" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/leprozengracht/5685"){ echo "selected"; } ?>>
+					Leprozengracht</option>
+					<option value="https://adamlink.nl/geo/street/nieuwe-amstelstraat/3138" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/nieuwe-amstelstraat/3138"){ echo "selected"; } ?>>
+					Nieuwe Amstelstraat</option>
+					<option value="https://adamlink.nl/geo/street/waterlooplein/4894" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/waterlooplein/4894"){ echo "selected"; } ?>>
+					Waterlooplein</option>
+					<option value="https://adamlink.nl/geo/street/weesperstraat/4919" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/weesperstraat/4919"){ echo "selected"; } ?>>
+					Weesperstraat</option>
+					<option value="https://adamlink.nl/geo/street/zwanenburgerstraat/5221" <?php if($_GET['straat'] == "https://adamlink.nl/geo/street/zwanenburgerstraat/5221"){ echo "selected"; } ?>>
+					Zwanenburgerstraat</option>
 				</select>
 				
 				<select name="bron" class="form-select" style="width:30%; display: inline;">

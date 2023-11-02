@@ -41,7 +41,7 @@ $adreslabels = array();
 $adreslinks = array();
 foreach ($data['results']['bindings'] as $key => $value) {
 	$adreslabels[] = $value['label']['value'];
-	$adreslinks[] = '<a href="' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $value['bronlabel']['value'] . ')</a>';
+	$adreslinks[] = '<a href="adres/?adres=' . $value['adres']['value'] . '">' . $value['label']['value'] . ' (' . $value['bronlabel']['value'] . ')</a>';
 }
 $adreslabels = array_unique($adreslabels);
 

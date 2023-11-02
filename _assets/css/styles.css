@@ -133,6 +133,12 @@ a:hover{
 	margin-top: 24px;
 	border-top-left-radius: 20px;
 }
+.explanationblock{
+	background-color: #f2b3bf;
+	padding: 20px;
+	margin-top: 24px;
+	border-top-left-radius: 20px;
+}
 
 #footer{
 	background-color: #646464;

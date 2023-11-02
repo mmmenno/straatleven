@@ -165,7 +165,7 @@ PREFIX schema: <https://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX roar: <https://w3id.org/roar#>
-SELECT ?jmloc ?adrstr ?floor ?floorconcept ?floorlabel ?jmp ?jmplabel WHERE {
+SELECT ?jmloc ?adrstr ?floor ?floorconcept ?floorlabel ?jmp ?jmplabel ?jmbdate WHERE {
   VALUES ?aladr { <" . $thisaddress['uri'] . "> ";
 
   foreach($otheraddresses as $k => $v){
@@ -182,6 +182,9 @@ SELECT ?jmloc ?adrstr ?floor ?floorconcept ?floorlabel ?jmp ?jmplabel WHERE {
   }
   ?jmp roar:hasLocation/rdf:value ?jmloc .
   ?jmp rdfs:label ?jmplabel .
+  optional{
+    ?jmp schema:birthDate ?jmbdate . 
+  }
 } 
 ";
 
@@ -191,6 +194,7 @@ $endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/spar
 $json = getSparqlResults($endpoint,$sparql);
 $data = json_decode($json,true);
 
+$bybirthdate = array();
 
 foreach ($data['results']['bindings'] as $row) {
 
@@ -199,16 +203,23 @@ foreach ($data['results']['bindings'] as $row) {
       "link" => $row['jmp']['value'],
       "label" => $row['jmplabel']['value'] . " " . $row['adrstr']['value'],
       "bron" => "Joods Monument",
-      "periode" => "1940-1945"
+      "periode" => "1940-1943"
     );
   }else{
     $floors['onbekend of hele huis'][] = array(
       "link" => $row['jmp']['value'],
       "label" => $row['jmplabel']['value'],
       "bron" => "Joods Monument",
-      "periode" => "1940-1945"
+      "periode" => "1940-1943"
     );
   }
+
+  $bybirthdate[$row['jmbdate']['value']][] = array(
+    "link" => $row['jmp']['value'],
+    "label" => $row['jmplabel']['value'],
+    "bron" => "Joods Monument",
+    "periode" => "1940-1943"
+  );
 
 }
 
@@ -367,10 +378,68 @@ foreach ($data['results']['bindings'] as $row) {
     );
   }
 
+  $bybirthdate[$row['birth']['value']][] = array(
+    "link" => "https://diamantbewerkers.nl/en/detail?id=" . $row['resident']['value'],
+    "label" => str_replace(" | ","",$name),
+    "bron" => "ANDB",
+    "periode" => "1895-1968"
+  );
+
 }
 
 
+
+
+// Bevolkingsregisters 1864-74
+$sparql = "
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+PREFIX schemahttp: <http://schema.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX saa: <https://data.archief.amsterdam/ontology#>
+PREFIX pnv: <https://w3id.org/pnv#>
+
+SELECT ?bdate ?pname WHERE {
+  VALUES ?adres { <" . $thisaddress['uri'] . "> ";
+
+  foreach($otheraddresses as $k => $v){
+    $sparql .= "<" . $k . "> ";
+  }
+
+  $sparql .= " }
+  ?rec saa:isAssociatedWithModernAddress/owl:sameAs ?adres .
+  ?rec <https://data.archief.amsterdam/ontology#isOrWasAlsoIncludedIn> <https://ams-migrate.memorix.io/resources/records/temp-id-bev-register-1864-74> .
+  ?rec rico:hasOrHadSubject/saa:relatedPersonObservation ?po .
+  ?po schemahttp:birthDate ?bdate .
+  ?po pnv:hasName/pnv:literalName ?pname .
+} 
+LIMIT 500
+";
+
+//echo $sparql;
+$endpoint = 'https://api.lod.uba.uva.nl/datasets/ATM/ATM-KG/services/ATM-KG/sparql';
+
+$json = getSparqlResults($endpoint,$sparql);
+$data = json_decode($json,true);
+
+
+foreach ($data['results']['bindings'] as $row) {
+
+  $bybirthdate[$row['bdate']['value']][] = array(
+    "link" => "[geen link mogelijk]",
+    "label" => $row['pname']['value'],
+    "bron" => "Bevolkingsregister 1864-1874",
+    "periode" => "1864-1874"
+  );
+
+}
+
+
+
+
 ksort($floors);
+ksort($bybirthdate);
 ?>
 
 
@@ -409,6 +478,21 @@ ksort($floors);
 
   <div class="row">
 
+    <div class="col-md-4">
+      <div class="explanationblock">
+        <h3>Wooneenheden</h3>
+
+        <p>
+          Sommige bronnen (woningkaarten, joods monument, andb, err) vermelden naast het adres ook het 'verblijfsobject' - verdieping dekt de lading niet helemaal, het komt ook voor dat een wooneenheid meerdere verdiepingen telt of enkel een halve.
+        </p>
+
+        <p>
+          Omdat die wooneenheden, ook binnen een bron, op allerlei verschillende manieren worden aangeduid (i,  1, 1-hoog, I-hoog, etc.), hebben we een <a target="_blank" href="https://api.lod.uba.uva.nl/s/anVdF9Gbv">gestandaardiseerde lijst</a> gemaakt van al die varianten.
+        </p>
+        
+      </div>
+    </div>
+
     <?php
 
     foreach ($floors as $floorlabel => $floordata) {
@@ -436,6 +520,17 @@ ksort($floors);
 
     ?>
 
+    <div class="col-md-4">
+      <div class="explanationblock">
+        <h3>Over de woningkaarten</h3>
+
+        <p>
+          Woningkaarten zijn alleen op adres geïndexeerd. Als je de scan van een woningkaart bekijkt zie je daar wel alle (hoofd)bewoners op terug, inclusief de datum waarop ze de woning betrokken en verlieten.
+        </p>
+        
+      </div>
+    </div>
+
   </div>
 
   <h2>Afbeeldingen</h2>
@@ -444,20 +539,54 @@ ksort($floors);
 
     <div class="col-md-4">
       
-
     </div>
+
 
   </div>
 
 
-  <h2>Personen</h2>
+  <h2>Persoonsobservaties, gesorteerd op geboortedatum</h2>
 
   <div class="row">
 
     <div class="col-md-4">
-      
+      <div class="explanationblock">
+        <h3>Identificeren o.b.v. geboortedatum?</h3>
 
+        <p>
+          Aangezien de hier vermelde persoonsobservaties in verschillende bronnen allemaal met dit adres verbonden zijn, lijkt de kans op twee verschillende personen met eenzelfde geboortedatum klein. Maar niet uit te sluiten.
+        </p>
+        
+      </div>
     </div>
+
+
+    <?php
+
+    foreach ($bybirthdate as $bdate => $po) {
+
+
+
+      ?>
+        <div class="col-md-4">
+          <div class="personblock">
+            <h3><?= $bdate ?></h3>
+
+            <?php foreach ($po as $obs) { ?>
+              <a target="_blank" href="<?= $obs['link'] ?>"><?= $obs['label'] ?></a><br />
+              <div class="evensmaller" style="padding-bottom: 8px;"><?= $obs['bron'] ?> (<?= $obs['periode'] ?>)</div>
+            <?php } ?>
+
+            
+          </div>
+
+        </div>
+
+      <?php
+      
+    }
+
+    ?>
 
   </div>
 

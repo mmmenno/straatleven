@@ -93,14 +93,14 @@
 	{
 		"id": "joods-monument",
 		"name": "Joods Monument Amsterdam",
-		"description": "Het Joods Monument is een online monument voor de meer dan  104.000 mensen die in Nederland als Joden werden vervolgd en de Holocaust niet overleefden. Op deze site worden daarvan de 63.164 mensen met Amsterdamse adressen getoond.",
+		"description": "Het Joods Monument is een online monument voor de meer dan  104.000 mensen die in Nederland als Joden werden vervolgd en de Holocaust niet overleefden. Op deze site worden daarvan de 63.164 personen met Amsterdamse adressen getoond.",
 		"more-info": "https://www.joodsmonument.nl/nl/page/571160/over-het-joods-monument",
 		"organisation": "Joods Cultureel Kwartier",
 		"data-search": "De gegevens zijn op het Joods Monument te doorzoeken.",
 		"data-search-link": "https://www.joodsmonument.nl/nl/search?advancedsearch=true",
 		"data-download": "De Amsterdamse adressen zijn opgenomen in de Amsterdam Time Machine Knowledgegraph",
 		"data-download-link": "https://lod.uba.uva.nl/ATM/ATM-KG",
-		"data-api": "De gegevens zijn voor deze applicatie (tijdelijk) toegankelijk gemaakt via de sparql endpoint van de Amsterdam Time Machine. Dit betreft nu alleen documenten die Amsterdamse adressen betreffen.",
+		"data-api": "De gegevens zijn voor deze applicatie (tijdelijk) toegankelijk gemaakt via de sparql endpoint van de Amsterdam Time Machine. Dit betreft alleen personen met Amsterdamse adressen.",
 		"data-api-link": "https://lod.uba.uva.nl/ATM/ATM-KG/sparql/ATM-KG"
 	},
 	{
