@@ -43,7 +43,7 @@ function refreshMap(){
 
                     return new L.CircleMarker(latlng, {
                         color: "#fff",
-                        fillColor: "#469d3a",
+                        fillColor: "#c70030",
                         radius:8,
                         weight: 0,
                         opacity: 0.7,

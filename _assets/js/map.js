@@ -76,11 +76,10 @@ function createMap(){
         position: 'bottomright'
     }).addTo(map);
 
-    overviewLayer = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        subdomains: 'abcd',
+    overviewLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}', {
         minZoom: 0,
-        maxZoom: 15,
+        maxZoom: 20,
+        attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         ext: 'png'
     }).addTo(map);
     
@@ -94,25 +93,25 @@ function createMap(){
     layer1876 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/loman/{z}/{x}/{y}.jpeg', {
         attribution: 'map provided by HicSuntLeones',
         maxZoom: 19,
-        minZoom:15
+        minZoom:13
     });
 
-    layer1909 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1909/{z}/{x}/{y}.png', {
-        attribution: 'map provided by HicSuntLeones',
+    layer1909 = L.tileLayer('https://tiles.create.humanities.uva.nl/atm/publieke-werken-1909/{z}/{x}/{y}.png', {
+        attribution: 'map provided by Bert Spaan',
         maxZoom: 19,
-        minZoom:15
+        minZoom:13
     });
 
-    layer1943 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1943/{z}/{x}/{y}.png', {
-        attribution: 'map provided by HicSuntLeones',
+    layer1943 = L.tileLayer('https://tiles.create.humanities.uva.nl/atm/publieke-werken-1943/{z}/{x}/{y}.png', {
+        attribution: 'map provided by Bert Spaan',
         maxZoom: 19,
-        minZoom:15
+        minZoom:13
     });
 
-    layer1985 = L.tileLayer('https://images.huygens.knaw.nl/webmapper/maps/pw-1985/{z}/{x}/{y}.png', {
-        attribution: 'map provided by HicSuntLeones',
+    layer1985 = L.tileLayer('https://tiles.create.humanities.uva.nl/atm/publieke-werken-1985/{z}/{x}/{y}.png', {
+        attribution: 'map provided by Bert Spaan',
         maxZoom: 19,
-        minZoom:15
+        minZoom:13
     });
 
     tileLayer = layer1943.addTo(map);
